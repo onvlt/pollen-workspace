@@ -1,5 +1,5 @@
 #lang racket
-(require txexpr pollen/core "lib/decoding.rkt")
+(require txexpr pollen/core "lib/markup.rkt" "lib/tags/table.rkt" "lib/tags/lists.rkt")
 (provide current-lang current-author root bullet-list number-list table)
 
 (define default-author "Ondřej Nývlt")
@@ -22,11 +22,5 @@
 (define (root . elements)
   (txexpr 'root empty (decode-markup elements)))
 
-(define (bullet-list . elements)
-  (txexpr 'ul empty (decode-list-items elements)))
 
-(define (number-list . elements)
-  (txexpr 'ol empty (decode-list-items elements)))
 
-(define (table . elements)
-  (txexpr 'table empty (decode-table elements)))

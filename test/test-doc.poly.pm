@@ -8,17 +8,17 @@
 
 Simple paragraph.
 
-This is paragrpah with *markdown emphasis*.
+This is paragraph with *markdown emphasis*.
 
 This is paragraph with ◊em{pollen emphasis}.
 
-This is paragrpah with **markdown strong emphasis**.
+This is paragraph with **markdown strong emphasis**.
 
-This is paragrpah with ◊strong{pollen strong emphasis}.
+This is paragraph with ◊strong{pollen strong emphasis}.
 
 ## Markdown heading with *markdown emphasis*
 
-◊h2{Pollen heading with ◊em{pollen emphais}}
+◊h2{Pollen heading with ◊em{pollen emphasis}}
 
 ### Markdown heading with ◊em{pollen emphasis}
 
