@@ -1,0 +1,52 @@
+\chapter{Markdown heading}
+
+\chapter{Pollen heading}
+
+Simple paragraph.
+
+This is paragrpah with {\em markdown emphasis}.
+
+This is paragraph with {\em pollen emphasis}.
+
+This is paragrpah with {\bf markdown strong emphasis}.
+
+This is paragrpah with {\bf pollen strong emphasis}.
+
+\section{Markdown heading with {\em markdown emphasis}}
+
+\section{Pollen heading with {\em pollen emphais}}
+
+\subsection{Markdown heading with {\em pollen emphasis}}
+
+\subsection{Pollen heading with {\em markdown emphasis}}
+
+***
+
+Markdown section separator
+
+***
+
+Pollen section separator
+
+\startitemize
+\item Bullet list item 1
+\item Bullet list item 2
+\item Bullet list item 3
+\stopitemize
+
+\startitemize[n]
+\item Number list item 1
+\item Number list item 2
+\item Number list item 3
+\stopitemize
+
+\startplacetable[location=here,number=no]
+\starttabulate
+Model \NC Pozitivní \NC Reflexivní \AR
+Metoda \NC Šetření \NC Rozšířený případ \AR
+Techniky empirického zkoumání \NC Rozhovor \NC Zúčastněné pozorování \AR
+Vztah vědce k "druhým" \NC Izolace \NC Participace \AR
+Limity \NC Účinky kontextu \NC Účinky moci \AR
+Objektivita \NC Procedurální \NC Embedded \AR
+\stoptabulate
+\stopplacetable

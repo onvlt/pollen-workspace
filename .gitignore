@@ -1,0 +1,14 @@
+# for Racket
+compiled/
+
+# for pollen
+pollen-cache/
+*.html
+
+# context
+*-export/
+*.log
+*.pdf
+*.tuc
+*.css
+*.sile
