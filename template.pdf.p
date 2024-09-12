@@ -1,6 +1,7 @@
 ◊(require racket/file racket/system)
 ◊(define (render-pdf path)
    (define-values (_dir filename _) (split-path path))
+   ; Drop both pollen and target extensions to get base filename.
    (define doc-name
      (path->string (path-replace-extension (path-replace-extension filename "") "")))
    (system (format "raco pollen render ~a.ctx" doc-name))

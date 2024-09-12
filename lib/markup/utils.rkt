@@ -2,10 +2,10 @@
 (require txexpr)
 (provide map-matches)
 
-; Apply given `proc` to all matches of `pat` regex pattern in `str`.
-; Proc accepts matched string as first argument and variablue number of rest arguments,
-; which corresponds to the number of capture groups, otherwise you get
-; arity mismatch error. Must return `txexpr-element?`
+; Transforms matches of `pat` in `str` and applies `proc` to them.
+; `proc` takes matched string and captured groups as arguments.
+; Arity of `proc` must correspond to the number of matches (entire match + optional capture groups),
+; otherwise you get arity mismatch error.
 (define/contract (map-matches pat str proc)
   (-> regexp? string? procedure? txexpr-elements?)
   (define sections (regexp-match* pat str #:match-select values #:gap-select? #t))

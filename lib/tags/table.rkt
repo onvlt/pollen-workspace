@@ -24,4 +24,5 @@
  Lorem | Ipsum | Dolor
 
  Sit | Amet | Consecteur
- }) '((row "Lorem" (col) "Ipsum" (col) "Dolor") (row "Sit" (col) "Amet" (col) "Consecteur")))))
+ }) '((row "Lorem" (col) "Ipsum" (col) "Dolor")
+      (row "Sit"   (col) "Amet"  (col) "Consecteur")))))
