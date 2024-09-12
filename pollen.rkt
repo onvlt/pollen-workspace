@@ -9,7 +9,7 @@
   (require pollen/setup)
   (provide (all-defined-out))
   (define block-tags (append default-block-tags '(row)))
-  (define poly-targets '(html ctx)))
+  (define poly-targets '(html ctx pdf)))
 
 (define/contract (current-lang)
   (-> string?)
@@ -21,6 +21,3 @@
 
 (define (root . elements)
   (txexpr 'root empty (decode-markup elements)))
-
-
-

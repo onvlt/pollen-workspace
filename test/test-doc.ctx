@@ -1,20 +1,141 @@
+\mainlanguage[cs]
+
+\setupinteraction
+  [state=start,
+  title={Od *slumů* k neformálnímu prostoru v Praze — esej},
+  author={Ondřej Nývlt}
+  color=black,
+  contrastcolor=black]
+
+\setuplayout
+  [width=fit,
+  height=fit,
+  backspace=3.6cm,
+  topspace=1.4cm]
+
+\placebookmarks[chapter, section, subsection][chapter, section]
+\setupinteractionscreen[option=bookmark]
+
+\setuppagenumbering[location={footer,middle},style={\ss}]
+\setupbackend[export=yes]
+\setupstructure[state=start,method=auto]
+
+\definefontfeature[default][default]
+  [script=latn,
+  protrusion=quality,
+  expansion=quality,
+  itlc=yes,
+  textitalics=yes,
+  onum=yes,
+  pnum=yes]
+
+\definefontfeature[smallcaps]
+  [script=latn,
+  protrusion=quality,
+  expansion=quality,
+  smcp=yes,
+  onum=yes,
+  pnum=yes]
+
+\setupalign[hz,hanging]
+\setupitaliccorrection[global, always]
+
+% use italic as em, not slanted
+\setupbodyfontenvironment[default][em=italic]
+
+\definefallbackfamily[mainface][rm][CMU Serif][preset=range:greek, force=yes]
+\definefontfamily[mainface][rm][EB Garamond] % Roman
+\definefontfamily[mainface][mm][Latin Modern Math] % Math
+\definefontfamily[mainface][ss][Ysabeau] % Sans serif
+\definefontfamily[mainface][tt][IBM Plex Mono][features=none] % Typewriter (monospace)
+\setupbodyfont[mainface,12pt]
+
+\setupinterlinespace[line=3.5ex]
+
+\setupindenting[yes,medium]
+
+\setuphead[title,chapter,section,subsection]
+  [number=no,
+  page=no,
+  align=flushleft]
+\setuphead[title,chapter]
+  [before={\blank[quarterline]},
+  after={\blank[quarterline]},
+  style={\ss\tfb\bf\unhyphenated\setupinterlinespace[line=3.2ex]}]
+\setuphead[section][style={\ss\bf},after={\blank[halfline]}]
+\setuphead[subsection][style={\ss\bf}]
+
+\setuplist[section][style=bold]
+\setuplist[subsection][margin=1cm]
+\setuplist[section, subsection, subsubsection][width=1cm]
+\setupcombinedlist[content][list={section,subsection}]
+
+\setupnote[footnote][textstyle=\ss]
+\setupnotation[footnote][style=\ss,numbercommand=\ss\high]
+
+\definedescription
+  [description]
+  [headstyle=bold,
+  style=normal,
+  location=hanging,
+  width=broad,
+  margin=1cm,
+  alternative=hanging]
+
+\setupitemize[autointro]% prevent orphan list intro
+\setupitemize[indentnext=no]
+
+\setupfloat[figure][default={here,nonumber}]
+\setupfloat[table][default={here,nonumber}]
+
+\setupxtable[frame=off]
+\setupxtable[head][topframe=on,bottomframe=on]
+\setupxtable[body][]
+\setupxtable[foot][bottomframe=on]
+
+\definemeasure[cslhangindent][1.5em]
+\definenarrower[hangingreferences][left=\measure{cslhangindent}]
+\definestartstop[cslreferences]
+  [before={%
+          \starthangingreferences[left]
+      \setupindenting[-\leftskip,yes,first]
+      \doindentation
+        },
+  after=\stophangingreferences]
+
+\setupdelimitedtext[blockquote]
+  [before={\blank[line]},
+  after={\blank[line]},
+  style={\ss},
+  leftmargin=1cm,
+  rightmargin=1cm,
+  indenting=no,
+  indentnext=no]
+
+\starttext
+{\setupindenting[no]
+{ \hfill {\ss author}}
+\title{Od *slumů* k neformálnímu prostoru v Praze — esej}
+}
+\blank[3*line]
+
 \chapter{Markdown heading}
 
 \chapter{Pollen heading}
 
 Simple paragraph.
 
-This is paragrpah with {\em markdown emphasis}.
+This is paragraph with {\em markdown emphasis}.
 
 This is paragraph with {\em pollen emphasis}.
 
-This is paragrpah with {\bf markdown strong emphasis}.
+This is paragraph with {\bf markdown strong emphasis}.
 
-This is paragrpah with {\bf pollen strong emphasis}.
+This is paragraph with {\bf pollen strong emphasis}.
 
 \section{Markdown heading with {\em markdown emphasis}}
 
-\section{Pollen heading with {\em pollen emphais}}
+\section{Pollen heading with {\em pollen emphasis}}
 
 \subsection{Markdown heading with {\em pollen emphasis}}
 
@@ -50,3 +171,5 @@ Limity \NC Účinky kontextu \NC Účinky moci \AR
 Objektivita \NC Procedurální \NC Embedded \AR
 \stoptabulate
 \stopplacetable
+
+\stoptext
