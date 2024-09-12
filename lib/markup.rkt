@@ -13,31 +13,33 @@
   (require rackunit)
   (test-case
    "decode-markup decodes markdown-style headings"
-   (check-equal? (decode-markup ◊list{
+   (define markup ◊list{
  # Heading 1
 
  ## Heading 2
 
  ### Heading 3
- }) '((h1 "Heading 1") (h2 "Heading 2") (h3 "Heading 3"))))
+ })
+   (check-equal? (decode-markup markup) '((h1 "Heading 1") (h2 "Heading 2") (h3 "Heading 3"))))
 
   (test-case
    "decode-markup decodes markdown-style headings"
-   (check-equal? (decode-markup ◊list{
-
+   (define markup ◊list{
  # Heading with *emphasis*
 
  Paragraph with *emphasis*.
 
  Paragraph with **strong emphasis**.
-
- }) '((h1 "Heading with " (em "emphasis"))
+ })
+   (check-equal?
+    (decode-markup markup)
+    '((h1 "Heading with " (em "emphasis"))
       (p "Paragraph with " (em "emphasis") ".")
       (p "Paragraph with " (strong "strong emphasis") "."))))
 
   (test-case
    "decode-markup decodes markdown-style horizontal rules"
-   (check-equal? (decode-markup ◊list{
+   (define markup ◊list{
  Paragraph 1
 
  ---
@@ -47,17 +49,18 @@
  ***
 
  Paragraph 3
- }) '(
-      (p "Paragraph 1")
+ })
+   (check-equal?
+    (decode-markup markup)
+    '((p "Paragraph 1")
       (hr)
       (p "Paragraph 2")
       (hr)
-      (p "Paragraph 3")
-      )))
+      (p "Paragraph 3"))))
 
   (test-case
    "decode-markup decodes combined markdown-style markup."
-   (check-equal? (decode-markup ◊list{
+   (define markup ◊list{
  # Heading
 
  Simple paragraph.
@@ -69,8 +72,10 @@
  ***
 
  This paragraph is after separator.
- }) '(
-      (h1 "Heading")
+ })
+   (check-equal?
+    (decode-markup markup)
+    '((h1 "Heading")
       (p "Simple paragraph.")
       (h2 "Subheading with " (em "emphasis"))
       (p
