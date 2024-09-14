@@ -12,6 +12,8 @@ However, I'm also happy with some aspects of the Markdown notation. This is why 
 
 Racket and ConTeXt have to be installed on the machine.
 
+Template uses [EB Garamond](https://github.com/georgd/EB-Garamond) and [Ysabeau](https://github.com/CatharsisFonts/Ysabeau) fonts.
+
 ## Usage
 
 Use `raco pollen render doc.pdf` to render `doc.poly.pm` as PDF. This will generate `doc.ctx` (ConTeXt source file) and then tries to run ConTeXt to compile it to `doc.pdf`. When something goes wrong during ConTeXt compilation phase, we can head to `doc.ctx` to debug potential problems with ConTeXt source file.
@@ -24,6 +26,6 @@ See `test/test-doc.poly.pm` as reference for custom syntax.
 
 Running `pollen render doc.ctx` transforms Pollen markup file to X-expression and parses custom markdown syntax (see `lib/markup.rkt` for reference). Then, in `template.ctx` we run `txexpr->ctx` from `lib/targets/ctx.rkt` to convert this X-expression co TeX markup.
 
-`pollen render doc.pdf` will run `pollen render doc.ctx` on background and then tries to compile it with ConTeXt executable to PDF.
+`pollen render doc.pdf` will run `pollen render doc.ctx` on background and then tries to compile ConTeXt source file with ConTeXt executable to PDF.
 
 `template.cxt` is derived from [Pandoc ConTeXt](https://github.com/jgm/pandoc/blob/main/data/templates/default.context) template.
