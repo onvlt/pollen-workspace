@@ -12,7 +12,7 @@ However, I'm also happy with some aspects of the Markdown notation. This is why 
 
 Racket and ConTeXt have to be installed on the machine.
 
-Template uses [EB Garamond](https://github.com/georgd/EB-Garamond) and [Ysabeau](https://github.com/CatharsisFonts/Ysabeau) fonts.
+Template uses [EB Garamond](https://github.com/georgd/EB-Garamond) and [Ysabeau](https://github.com/CatharsisFonts/Ysabeau) fonts. [Adding custom fonts to ConTeXt requires some setup](https://wiki.contextgarden.net/Fonts/Use_the_fonts_you_want).
 
 ## Usage
 
