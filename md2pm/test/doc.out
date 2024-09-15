@@ -1,35 +1,39 @@
 #lang pollen
 
-
-
 ◊chapter[#:id "markdown-syntax"]{Markdown: Syntax}
 
 ◊bullet-list{
-  ◊(item) ◊a[#:href "#markdown-syntax"]{Markdown: Syntax}
+◊(item) ◊a[#:href "#markdown-syntax"]{Markdown: Syntax}
 
-  ◊(item) ◊a[#:href "#overview"]{Overview}
+◊(item) ◊a[#:href "#overview"]{Overview}
 
-  ◊bullet-list{
-    ◊(item) ◊a[#:href "#philosophy"]{Philosophy}
-  }
+◊bullet-list{
+◊(item) ◊a[#:href "#philosophy"]{Philosophy}
+}
 
-  ◊(item) ◊a[#:href "#block-elements"]{Block Elements}
+◊(item) ◊a[#:href "#block-elements"]{Block Elements}
 
-  ◊bullet-list{
-    ◊(item) ◊a[#:href "#paragraphs-and-line-breaks"]{Paragraphs and Line Breaks}
-    ◊(item) ◊a[#:href "#headers"]{Headers}
-    ◊(item) ◊a[#:href "#blockquotes"]{Blockquotes}
-    ◊(item) ◊a[#:href "#lists"]{Lists}
-    ◊(item) ◊a[#:href "#code-blocks"]{Code Blocks}
-  }
+◊bullet-list{
+◊(item) ◊a[#:href "#paragraphs-and-line-breaks"]{Paragraphs and Line Breaks}
 
-  ◊(item) ◊a[#:href "#span-elements"]{Span Elements}
+◊(item) ◊a[#:href "#headers"]{Headers}
 
-  ◊bullet-list{
-    ◊(item) ◊a[#:href "#links"]{Links}
-    ◊(item) ◊a[#:href "#emphasis"]{Emphasis}
-    ◊(item) ◊a[#:href "#code"]{Code}
-  }
+◊(item) ◊a[#:href "#blockquotes"]{Blockquotes}
+
+◊(item) ◊a[#:href "#lists"]{Lists}
+
+◊(item) ◊a[#:href "#code-blocks"]{Code Blocks}
+}
+
+◊(item) ◊a[#:href "#span-elements"]{Span Elements}
+
+◊bullet-list{
+◊(item) ◊a[#:href "#links"]{Links}
+
+◊(item) ◊a[#:href "#emphasis"]{Emphasis}
+
+◊(item) ◊a[#:href "#code"]{Code}
+}
 }
 
 ◊strong{Note:} This document is itself written using Markdown; you can ◊a[#:href "/projects/markdown/syntax.text"]{see the source for it by adding rsquo.textrsquo to the URL}.
@@ -293,4 +297,3 @@ Markdown treats asterisks (◊code{*}) and underscores (◊code{_}) as indicator
 To indicate a span of code, wrap it with backtick quotes (◊code{`}). Unlike a pre-formatted code block, a code span indicates code within a normal paragraph. For example:
 
 Use the ◊code{printf()} function.
-

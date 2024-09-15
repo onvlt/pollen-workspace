@@ -13,7 +13,8 @@
                 (format "#:~a ~s" key value)) attrs)))
 
 (define (encode-tag expr)
-  (define-values (tag attrs elements) (values (get-tag expr) (get-attrs expr) (get-elements expr)))
+  (define-values (tag attrs elements)
+    (values (get-tag expr) (get-attrs expr) (get-elements expr)))
   (define tag-str (format "◊~a" tag))
   (define attrs-str
     (cond [(empty? attrs) #f]
@@ -23,32 +24,36 @@
 
 (define/contract (encode-txexpr expr)
   (-> txexpr? any/c)
-  (define-values (tag attrs elements) (values (get-tag expr) (get-attrs expr) (get-elements expr)))
-  (cond
-    [(regexp-match? #rx"^temp-" (symbol->string tag)) expr]
-    [(eq? tag 'root) (encode-elements elements)]
-    ((eq? tag 'p) (encode-elements elements))
-    ((eq? tag 'h1) (encode-tag (txexpr 'chapter attrs elements)))
-    ((eq? tag 'h2) (encode-tag (txexpr 'section attrs elements)))
-    ((eq? tag 'h3) (encode-tag (txexpr 'subsection attrs elements)))
-    ((eq? tag 'ul) (encode-tag (txexpr 'bullet-list attrs elements)))
-    ((eq? tag 'ol) (encode-tag (txexpr 'number-list attrs elements)))
-    ((eq? tag 'li) (encode-elements (cons "◊(item) " elements)))
-    [#t (encode-tag expr)]))
+  (define-values (tag attrs elements)
+    (values (get-tag expr) (get-attrs expr) (get-elements expr)))
+  (case tag
+    [(root p) (encode-elements elements)]
+    [(h1) (encode-tag (txexpr 'chapter attrs elements))]
+    [(h2) (encode-tag (txexpr 'section attrs elements))]
+    [(h3) (encode-tag (txexpr 'subsection attrs elements))]
+    [(ul) (encode-tag (txexpr 'bullet-list attrs elements))]
+    [(ol) (encode-tag (txexpr 'number-list attrs elements))]
+    [(li) (encode-elements (cons "◊(item) " elements))]
+    [else (encode-tag expr)]))
 
 (define (intersperse-newlines elements)
-  (add-between-neighbors elements (λ (a b) (cond [(or (block-txexpr? a) (block-txexpr? b)) "\n\n"]
-                                                 [else #f]))))
+  (add-between-neighbors
+   elements
+   (λ (a b) (cond [(or (block-txexpr? a) (block-txexpr? b)) "\n\n"]
+                  [else #f]))))
 
 (define (wrap-block-contents expr)
-  (define-values (tag attrs elements) (values (get-tag expr) (get-attrs expr) (get-elements expr)))
-  (define wrap-content-with-newlines? (and (not (equal? tag 'li)) (ormap block-txexpr? elements)))
-  (define new-elements (cond [wrap-content-with-newlines? (append (list "\n") elements (list "\n"))]
-                             [else elements]))
+  (define-values (tag attrs elements)
+    (values (get-tag expr) (get-attrs expr) (get-elements expr)))
+  (define wrap-content-with-newlines?
+    (and (not (equal? tag 'li)) (ormap block-txexpr? elements)))
+  (define new-elements
+    (cond [wrap-content-with-newlines? (append (list "\n") elements (list "\n"))]
+          [else elements]))
   (txexpr tag attrs new-elements))
 
-(define (txexpr->pm . elements)
+(define (txexpr->pm elements)
   (~> elements
-      (decode-elements #:txexpr-elements-proc intersperse-newlines)
-      (decode-elements #:txexpr-proc wrap-block-contents)
-      (decode-elements #:txexpr-proc encode-txexpr)))
+      (decode #:txexpr-elements-proc intersperse-newlines)
+      (decode #:txexpr-proc wrap-block-contents)
+      (decode #:txexpr-proc encode-txexpr)))
