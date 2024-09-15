@@ -10,7 +10,7 @@
   (apply string-append
          (map (λ (item)
                 (match-define (list key value) item)
-                (format "#:~a ~a" key value)) attrs)))
+                (format "#:~a ~s" key value)) attrs)))
 
 (define (encode-tag expr)
   (define-values (tag attrs elements) (values (get-tag expr) (get-attrs expr) (get-elements expr)))
@@ -33,7 +33,6 @@
     ((eq? tag 'h3) (encode-tag (txexpr 'subsection attrs elements)))
     ((eq? tag 'ul) (encode-tag (txexpr 'bullet-list attrs elements)))
     ((eq? tag 'ol) (encode-tag (txexpr 'number-list attrs elements)))
-    ; ((eq? tag 'li) (encode-tag (txexpr 'item attrs elements)))
     ((eq? tag 'li) (encode-elements (cons "◊(item) " elements)))
     [#t (encode-tag expr)]))
 
@@ -42,7 +41,7 @@
 
 (define (wrap-block-contents expr)
   (define-values (tag attrs elements) (values (get-tag expr) (get-attrs expr) (get-elements expr)))
-  (define wrap-content-with-newlines? (ormap block-txexpr? elements))
+  (define wrap-content-with-newlines? (and (not (equal? tag 'li)) (ormap block-txexpr? elements)))
   (define new-elements (cond [wrap-content-with-newlines? (append (list "\n") elements (list "\n"))]
                              [else elements]))
   (txexpr tag attrs new-elements))

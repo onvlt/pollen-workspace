@@ -2,57 +2,51 @@
 
 
 
-◊chapter[#:id markdown-syntax]{Markdown: Syntax}
+◊chapter[#:id "markdown-syntax"]{Markdown: Syntax}
 
 ◊bullet-list{
-◊(item) ◊a[#:href #markdown-syntax]{Markdown: Syntax}
+◊(item) ◊a[#:href "#markdown-syntax"]{Markdown: Syntax}
 
-◊(item) 
-◊a[#:href #overview]{Overview}◊bullet-list{
-◊(item) ◊a[#:href #philosophy]{Philosophy}
+◊(item) ◊a[#:href "#overview"]{Overview}◊bullet-list{
+◊(item) ◊a[#:href "#philosophy"]{Philosophy}
 }
 
+◊(item) ◊a[#:href "#block-elements"]{Block Elements}◊bullet-list{
+◊(item) ◊a[#:href "#paragraphs-and-line-breaks"]{Paragraphs and Line Breaks}
 
-◊(item) 
-◊a[#:href #block-elements]{Block Elements}◊bullet-list{
-◊(item) ◊a[#:href #paragraphs-and-line-breaks]{Paragraphs and Line Breaks}
+◊(item) ◊a[#:href "#headers"]{Headers}
 
-◊(item) ◊a[#:href #headers]{Headers}
+◊(item) ◊a[#:href "#blockquotes"]{Blockquotes}
 
-◊(item) ◊a[#:href #blockquotes]{Blockquotes}
+◊(item) ◊a[#:href "#lists"]{Lists}
 
-◊(item) ◊a[#:href #lists]{Lists}
-
-◊(item) ◊a[#:href #code-blocks]{Code Blocks}
+◊(item) ◊a[#:href "#code-blocks"]{Code Blocks}
 }
 
+◊(item) ◊a[#:href "#span-elements"]{Span Elements}◊bullet-list{
+◊(item) ◊a[#:href "#links"]{Links}
 
-◊(item) 
-◊a[#:href #span-elements]{Span Elements}◊bullet-list{
-◊(item) ◊a[#:href #links]{Links}
+◊(item) ◊a[#:href "#emphasis"]{Emphasis}
 
-◊(item) ◊a[#:href #emphasis]{Emphasis}
-
-◊(item) ◊a[#:href #code]{Code}
+◊(item) ◊a[#:href "#code"]{Code}
+}
 }
 
-}
-
-◊strong{Note:} This document is itself written using Markdown; you can ◊a[#:href /projects/markdown/syntax.text]{see the source for it by adding rsquo.textrsquo to the URL}.
+◊strong{Note:} This document is itself written using Markdown; you can ◊a[#:href "/projects/markdown/syntax.text"]{see the source for it by adding rsquo.textrsquo to the URL}.
 
 ◊hr{}
 
-◊section[#:id overview]{Overview}
+◊section[#:id "overview"]{Overview}
 
-◊subsection[#:id philosophy]{Philosophy}
+◊subsection[#:id "philosophy"]{Philosophy}
 
 Markdown is intended to be as easy-to-read and easy-to-write as is feasible.
 
-Readability, however, is emphasized above all else. A Markdown-formatted document should be publishable as-is, as plain text, without looking like itrsquos been marked up with tags or formatting instructions. While Markdownrsquos syntax has been influenced by several existing text-to-HTML filters mdash including ◊a[#:href http://docutils.sourceforge.net/mirror/setext.html]{Setext}, ◊a[#:href http://www.aaronsw.com/2002/atx/]{atx}, ◊a[#:href http://textism.com/tools/textile/]{Textile}, ◊a[#:href http://docutils.sourceforge.net/rst.html]{reStructuredText}, ◊a[#:href http://www.triptico.com/software/grutatxt.html]{Grutatext}, and ◊a[#:href http://ettext.taint.org/doc/]{EtText} mdash the single biggest source of inspiration for Markdownrsquos syntax is the format of plain text email.
+Readability, however, is emphasized above all else. A Markdown-formatted document should be publishable as-is, as plain text, without looking like itrsquos been marked up with tags or formatting instructions. While Markdownrsquos syntax has been influenced by several existing text-to-HTML filters mdash including ◊a[#:href "http://docutils.sourceforge.net/mirror/setext.html"]{Setext}, ◊a[#:href "http://www.aaronsw.com/2002/atx/"]{atx}, ◊a[#:href "http://textism.com/tools/textile/"]{Textile}, ◊a[#:href "http://docutils.sourceforge.net/rst.html"]{reStructuredText}, ◊a[#:href "http://www.triptico.com/software/grutatxt.html"]{Grutatext}, and ◊a[#:href "http://ettext.taint.org/doc/"]{EtText} mdash the single biggest source of inspiration for Markdownrsquos syntax is the format of plain text email.
 
-◊section[#:id block-elements]{Block Elements}
+◊section[#:id "block-elements"]{Block Elements}
 
-◊subsection[#:id paragraphs-and-line-breaks]{Paragraphs and Line Breaks}
+◊subsection[#:id "paragraphs-and-line-breaks"]{Paragraphs and Line Breaks}
 
 A paragraph is simply one or more consecutive lines of text, separated by one or more blank lines. (A blank line is any line that looks like a blank line mdash a line containing nothing but spaces or tabs is considered blank.) Normal paragraphs should not be indented with spaces or tabs.
 
@@ -60,13 +54,13 @@ The implication of the ldquoone or more consecutive lines of textrdquo rule is t
 
 When you ◊em{do} want to insert a ◊code{<br />} break tag using Markdown, you end a line with two or more spaces, then type return.
 
-◊subsection[#:id headers]{Headers}
+◊subsection[#:id "headers"]{Headers}
 
 Markdown supports two styles of headers, [Setext] [1] and [atx] [2].
 
 Optionally, you may ldquocloserdquo atx-style headers. This is purely cosmetic mdash you can use this if you think it looks better. The closing hashes donrsquot even need to match the number of hashes used to open the header. (The number of opening hashes determines the header level.)
 
-◊subsection[#:id blockquotes]{Blockquotes}
+◊subsection[#:id "blockquotes"]{Blockquotes}
 
 Markdown uses email-style ◊code{>} characters for blockquoting. If yoursquore familiar with quoting passages of text in an email message, then you know how to create a blockquote in Markdown. It looks best if you hard wrap the text and put a ◊code{>} before every line:
 
@@ -101,7 +95,7 @@ Back to the first level.
 Blockquotes can contain other Markdown elements, including headers, lists, and code blocks:
 
 ◊blockquote{
-◊section[#:id this-is-a-header]{This is a header.}
+◊section[#:id "this-is-a-header"]{This is a header.}
 
 ◊number-list{
 ◊(item) This is the first list item.
@@ -116,7 +110,7 @@ Herersquos some example code:
 
 Any decent text editor should make email-style quoting easy. For example, with BBEdit, you can make a selection and choose Increase Quote Level from the Text menu.
 
-◊subsection[#:id lists]{Lists}
+◊subsection[#:id "lists"]{Lists}
 
 Markdown supports ordered (numbered) and unordered (bulleted) lists.
 
@@ -203,11 +197,9 @@ But if you want to be lazy, you donrsquot have to:
 List items may consist of multiple paragraphs. Each subsequent paragraph in a list item must be indented by either 4 spaces or one tab:
 
 ◊number-list{
-◊(item) 
-This is a list item with two paragraphs. Lorem ipsum dolor  sit amet, consectetuer adipiscing elit. Aliquam hendrerit  mi posuere lectus.
+◊(item) This is a list item with two paragraphs. Lorem ipsum dolor  sit amet, consectetuer adipiscing elit. Aliquam hendrerit  mi posuere lectus.
 
 Vestibulum enim wisi, viverra nec, fringilla in, laoreet vitae, risus. Donec sit amet nisl. Aliquam semper ipsum sit amet velit.
-
 
 ◊(item) Suspendisse id sem consectetuer libero luctus adipiscing.
 }
@@ -215,11 +207,9 @@ Vestibulum enim wisi, viverra nec, fringilla in, laoreet vitae, risus. Donec sit
 It looks nice if you indent every line of the subsequent paragraphs, but here again, Markdown will allow you to be lazy:
 
 ◊bullet-list{
-◊(item) 
-This is a list item with two paragraphs.
+◊(item) This is a list item with two paragraphs.
 
 This is the second paragraph in the list item. Yoursquore only required to indent the first line. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-
 
 ◊(item) Another item in the same list.
 }
@@ -227,26 +217,22 @@ This is the second paragraph in the list item. Yoursquore only required to inden
 To put a blockquote within a list item, the blockquotersquos ◊code{>} delimiters need to be indented:
 
 ◊bullet-list{
-◊(item) 
-A list item with a blockquote:
+◊(item) A list item with a blockquote:
 
 ◊blockquote{
 This is a blockquote inside a list item.
 }
-
 }
 
 To put a code block within a list item, the code block needs to be indented ◊em{twice} mdash 8 spaces or two tabs:
 
 ◊bullet-list{
-◊(item) 
-A list item with a code block:
+◊(item) A list item with a code block:
 
 ◊pre{◊code{<code goes here>}}
-
 }
 
-◊subsection[#:id code-blocks]{Code Blocks}
+◊subsection[#:id "code-blocks"]{Code Blocks}
 
 Pre-formatted code blocks are used for writing about programming or markup source code. Rather than forming normal paragraphs, the lines of a code block are interpreted literally. Markdown wraps a code block in both ◊code{<pre>} and ◊code{<code>} tags.
 
@@ -276,9 +262,9 @@ Regular Markdown syntax is not processed within code blocks. E.g., asterisks are
     beep
 end tell}}
 
-◊section[#:id span-elements]{Span Elements}
+◊section[#:id "span-elements"]{Span Elements}
 
-◊subsection[#:id links]{Links}
+◊subsection[#:id "links"]{Links}
 
 Markdown supports two style of links: ◊em{inline} and ◊em{reference}.
 
@@ -286,11 +272,11 @@ In both styles, the link text is delimited by [square brackets].
 
 To create an inline link, use a set of regular parentheses immediately after the link textrsquos closing square bracket. Inside the parentheses, put the URL where you want the link to point, along with an ◊em{optional} title for the link, surrounded in quotes. For example:
 
-This is ◊a[#:href http://example.com/]{an example} inline link.
+This is ◊a[#:href "http://example.com/"]{an example} inline link.
 
-◊a[#:href http://example.net/]{This link} has no title attribute.
+◊a[#:href "http://example.net/"]{This link} has no title attribute.
 
-◊subsection[#:id emphasis]{Emphasis}
+◊subsection[#:id "emphasis"]{Emphasis}
 
 Markdown treats asterisks (◊code{*}) and underscores (◊code{_}) as indicators of emphasis. Text wrapped with one ◊code{*} or ◊code{_} will be wrapped with an HTML ◊code{<em>} tag; double ◊code{*}rsquos or ◊code{_}rsquos will be wrapped with an HTML ◊code{<strong>} tag. E.g., this input:
 
@@ -302,7 +288,7 @@ Markdown treats asterisks (◊code{*}) and underscores (◊code{_}) as indicator
 
 ◊strong{double underscores}
 
-◊subsection[#:id code]{Code}
+◊subsection[#:id "code"]{Code}
 
 To indicate a span of code, wrap it with backtick quotes (◊code{`}). Unlike a pre-formatted code block, a code span indicates code within a normal paragraph. For example:
 
