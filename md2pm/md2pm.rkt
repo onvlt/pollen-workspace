@@ -6,11 +6,10 @@
   (map (λ (elem) (format "~a" elem)) elements))
 
 (define (encode-attrs attrs)
-  (~> attrs
-      (map (λ (item)
-             (match-define (list key value) item)
-             (format "#:~a ~a" key value)) _)
-      (string-join " " #:before-first "[" #:after-last "]")))
+  (apply string-append
+         (map (λ (item)
+                (match-define (list key value) item)
+                (format "#:~a ~a" key value)) attrs)))
 
 (define (encode-tag expr #:block? [block? #f])
   (define attrs (get-attrs expr))
@@ -18,7 +17,7 @@
   (define tag-str (format "◊~a" (get-tag expr)))
   (define attrs-str
     (cond [(empty? attrs) #f]
-          [else (encode-attrs attrs)]))
+          [else (format "[~a]" (encode-attrs attrs))]))
   (define elements-str
     (cond [block? (format "{\n~a\n}" (apply string-append elements))]
           [else (format "{~a}" (apply string-append elements))]))
