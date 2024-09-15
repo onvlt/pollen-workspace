@@ -48,13 +48,13 @@
 \setupbodyfontenvironment[default][em=italic]
 
 \definefallbackfamily[mainface][rm][CMU Serif][preset=range:greek, force=yes]
-\definefontfamily[mainface][rm][◊(or (select 'font-family metas) "EB Garamond")] % Roman
+\definefontfamily[mainface][rm][◊(or (select 'font-family metas) "Libre Caslon Text")] % Roman
 \definefontfamily[mainface][mm][Latin Modern Math] % Math
 \definefontfamily[mainface][ss][Ysabeau] % Sans serif
 \definefontfamily[mainface][tt][IBM Plex Mono][features=none] % Typewriter (monospace)
-\setupbodyfont[mainface,◊(or (select 'font-size metas) "12pt")]
+\setupbodyfont[mainface,◊(or (select 'font-size metas) "10pt")]
 
-\setupinterlinespace[line=3.5ex]
+\setupinterlinespace[line=3ex]
 
 ◊(case (select-from-metas 'paragraph-mode metas)
   [(space) ◊string-append{\setupwhitespace[medium]}]
@@ -67,9 +67,9 @@
 \setuphead[title,chapter]
   [before={\blank[quarterline]},
   after={\blank[quarterline]},
-  style={\ss\tfb\bf\unhyphenated\setupinterlinespace[line=3.2ex]}]
-\setuphead[section][style={\ss\bf},after={\blank[halfline]}]
-\setuphead[subsection][style={\ss\bf}]
+  style={\tfb\bf\unhyphenated\setupinterlinespace[line=3.2ex]}]
+\setuphead[section][style={\bf},after={\blank[halfline]}]
+\setuphead[subsection][style={\bf}]
 
 \setuplist[section][style=bold]
 \setuplist[subsection][margin=1cm]
