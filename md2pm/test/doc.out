@@ -2,15 +2,15 @@
 
 ◊h1[#:id markdown-syntax]{Markdown: Syntax}
 
-◊ul{◊li{◊a[#:href #markdown-syntax]{Markdown: Syntax}}
+◊ul{
+◊li{◊a[#:href #markdown-syntax]{Markdown: Syntax}}
 
-◊li{◊a[#:href #overview]{Overview}◊ul{◊li{◊a[#:href #philosophy]{Philosophy}}
+◊li{◊a[#:href #overview]{Overview}◊ul{
+◊li{◊a[#:href #philosophy]{Philosophy}}
+}}
 
-}
-
-}
-
-◊li{◊a[#:href #block-elements]{Block Elements}◊ul{◊li{◊a[#:href #paragraphs-and-line-breaks]{Paragraphs and Line Breaks}}
+◊li{◊a[#:href #block-elements]{Block Elements}◊ul{
+◊li{◊a[#:href #paragraphs-and-line-breaks]{Paragraphs and Line Breaks}}
 
 ◊li{◊a[#:href #headers]{Headers}}
 
@@ -19,24 +19,18 @@
 ◊li{◊a[#:href #lists]{Lists}}
 
 ◊li{◊a[#:href #code-blocks]{Code Blocks}}
+}}
 
-}
-
-}
-
-◊li{◊a[#:href #span-elements]{Span Elements}◊ul{◊li{◊a[#:href #links]{Links}}
+◊li{◊a[#:href #span-elements]{Span Elements}◊ul{
+◊li{◊a[#:href #links]{Links}}
 
 ◊li{◊a[#:href #emphasis]{Emphasis}}
 
 ◊li{◊a[#:href #code]{Code}}
-
+}}
 }
 
-}
-
-}
-
-◊p{◊strong{Note:} This document is itself written using Markdown; you can ◊a[#:href /projects/markdown/syntax.text]{see the source for it by adding rsquo.textrsquo to the URL}.}
+◊strong{Note:} This document is itself written using Markdown; you can ◊a[#:href /projects/markdown/syntax.text]{see the source for it by adding rsquo.textrsquo to the URL}.
 
 ◊hr{}
 
@@ -44,231 +38,209 @@
 
 ◊h3[#:id philosophy]{Philosophy}
 
-◊p{Markdown is intended to be as easy-to-read and easy-to-write as is feasible.}
+Markdown is intended to be as easy-to-read and easy-to-write as is feasible.
 
-◊p{Readability, however, is emphasized above all else. A Markdown-formatted document should be publishable as-is, as plain text, without looking like itrsquos been marked up with tags or formatting instructions. While Markdownrsquos syntax has been influenced by several existing text-to-HTML filters mdash including ◊a[#:href http://docutils.sourceforge.net/mirror/setext.html]{Setext}, ◊a[#:href http://www.aaronsw.com/2002/atx/]{atx}, ◊a[#:href http://textism.com/tools/textile/]{Textile}, ◊a[#:href http://docutils.sourceforge.net/rst.html]{reStructuredText}, ◊a[#:href http://www.triptico.com/software/grutatxt.html]{Grutatext}, and ◊a[#:href http://ettext.taint.org/doc/]{EtText} mdash the single biggest source of inspiration for Markdownrsquos syntax is the format of plain text email.}
+Readability, however, is emphasized above all else. A Markdown-formatted document should be publishable as-is, as plain text, without looking like itrsquos been marked up with tags or formatting instructions. While Markdownrsquos syntax has been influenced by several existing text-to-HTML filters mdash including ◊a[#:href http://docutils.sourceforge.net/mirror/setext.html]{Setext}, ◊a[#:href http://www.aaronsw.com/2002/atx/]{atx}, ◊a[#:href http://textism.com/tools/textile/]{Textile}, ◊a[#:href http://docutils.sourceforge.net/rst.html]{reStructuredText}, ◊a[#:href http://www.triptico.com/software/grutatxt.html]{Grutatext}, and ◊a[#:href http://ettext.taint.org/doc/]{EtText} mdash the single biggest source of inspiration for Markdownrsquos syntax is the format of plain text email.
 
 ◊h2[#:id block-elements]{Block Elements}
 
 ◊h3[#:id paragraphs-and-line-breaks]{Paragraphs and Line Breaks}
 
-◊p{A paragraph is simply one or more consecutive lines of text, separated by one or more blank lines. (A blank line is any line that looks like a blank line mdash a line containing nothing but spaces or tabs is considered blank.) Normal paragraphs should not be indented with spaces or tabs.}
+A paragraph is simply one or more consecutive lines of text, separated by one or more blank lines. (A blank line is any line that looks like a blank line mdash a line containing nothing but spaces or tabs is considered blank.) Normal paragraphs should not be indented with spaces or tabs.
 
-◊p{The implication of the ldquoone or more consecutive lines of textrdquo rule is that Markdown supports ldquohard-wrappedrdquo text paragraphs. This differs significantly from most other text-to-HTML formatters (including Movable Typersquos ldquoConvert Line Breaksrdquo option) which translate every line break character in a paragraph into a ◊code{<br />} tag.}
+The implication of the ldquoone or more consecutive lines of textrdquo rule is that Markdown supports ldquohard-wrappedrdquo text paragraphs. This differs significantly from most other text-to-HTML formatters (including Movable Typersquos ldquoConvert Line Breaksrdquo option) which translate every line break character in a paragraph into a ◊code{<br />} tag.
 
-◊p{When you ◊em{do} want to insert a ◊code{<br />} break tag using Markdown, you end a line with two or more spaces, then type return.}
+When you ◊em{do} want to insert a ◊code{<br />} break tag using Markdown, you end a line with two or more spaces, then type return.
 
 ◊h3[#:id headers]{Headers}
 
-◊p{Markdown supports two styles of headers, [Setext] [1] and [atx] [2].}
+Markdown supports two styles of headers, [Setext] [1] and [atx] [2].
 
-◊p{Optionally, you may ldquocloserdquo atx-style headers. This is purely cosmetic mdash you can use this if you think it looks better. The closing hashes donrsquot even need to match the number of hashes used to open the header. (The number of opening hashes determines the header level.)}
+Optionally, you may ldquocloserdquo atx-style headers. This is purely cosmetic mdash you can use this if you think it looks better. The closing hashes donrsquot even need to match the number of hashes used to open the header. (The number of opening hashes determines the header level.)
 
 ◊h3[#:id blockquotes]{Blockquotes}
 
-◊p{Markdown uses email-style ◊code{>} characters for blockquoting. If yoursquore familiar with quoting passages of text in an email message, then you know how to create a blockquote in Markdown. It looks best if you hard wrap the text and put a ◊code{>} before every line:}
+Markdown uses email-style ◊code{>} characters for blockquoting. If yoursquore familiar with quoting passages of text in an email message, then you know how to create a blockquote in Markdown. It looks best if you hard wrap the text and put a ◊code{>} before every line:
 
-◊blockquote{◊p{This is a blockquote with two paragraphs. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aliquam hendrerit mi posuere lectus. Vestibulum enim wisi, viverra nec, fringilla in, laoreet vitae, risus.}
+◊blockquote{This is a blockquote with two paragraphs. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aliquam hendrerit mi posuere lectus. Vestibulum enim wisi, viverra nec, fringilla in, laoreet vitae, risus.
 
-◊p{Donec sit amet nisl. Aliquam semper ipsum sit amet velit. Suspendisse id sem consectetuer libero luctus adipiscing.}
+Donec sit amet nisl. Aliquam semper ipsum sit amet velit. Suspendisse id sem consectetuer libero luctus adipiscing.}
 
-}
+Markdown allows you to be lazy and only put the ◊code{>} before the first line of a hard-wrapped paragraph:
 
-◊p{Markdown allows you to be lazy and only put the ◊code{>} before the first line of a hard-wrapped paragraph:}
+◊blockquote{This is a blockquote with two paragraphs. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aliquam hendrerit mi posuere lectus. Vestibulum enim wisi, viverra nec, fringilla in, laoreet vitae, risus.}
 
-◊blockquote{◊p{This is a blockquote with two paragraphs. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aliquam hendrerit mi posuere lectus. Vestibulum enim wisi, viverra nec, fringilla in, laoreet vitae, risus.}
+◊blockquote{Donec sit amet nisl. Aliquam semper ipsum sit amet velit. Suspendisse id sem consectetuer libero luctus adipiscing.}
 
-}
+Blockquotes can be nested (i.e. a blockquote-in-a-blockquote) by adding additional levels of ◊code{>}:
 
-◊blockquote{◊p{Donec sit amet nisl. Aliquam semper ipsum sit amet velit. Suspendisse id sem consectetuer libero luctus adipiscing.}
+◊blockquote{This is the first level of quoting.
 
-}
+◊blockquote{This is nested blockquote.}
 
-◊p{Blockquotes can be nested (i.e. a blockquote-in-a-blockquote) by adding additional levels of ◊code{>}:}
+Back to the first level.}
 
-◊blockquote{◊p{This is the first level of quoting.}
-
-◊blockquote{◊p{This is nested blockquote.}
-
-}
-
-◊p{Back to the first level.}
-
-}
-
-◊p{Blockquotes can contain other Markdown elements, including headers, lists, and code blocks:}
+Blockquotes can contain other Markdown elements, including headers, lists, and code blocks:
 
 ◊blockquote{◊h2[#:id this-is-a-header]{This is a header.}
 
-◊ol{◊li{This is the first list item.}
+◊ol{
+◊li{This is the first list item.}
 
 ◊li{This is the second list item.}
-
 }
 
-◊p{Herersquos some example code:}
+Herersquos some example code:
 
-◊pre{◊code{return shell_exec("echo $input | $markdown_script");}}
+◊pre{◊code{return shell_exec("echo $input | $markdown_script");}}}
 
-}
-
-◊p{Any decent text editor should make email-style quoting easy. For example, with BBEdit, you can make a selection and choose Increase Quote Level from the Text menu.}
+Any decent text editor should make email-style quoting easy. For example, with BBEdit, you can make a selection and choose Increase Quote Level from the Text menu.
 
 ◊h3[#:id lists]{Lists}
 
-◊p{Markdown supports ordered (numbered) and unordered (bulleted) lists.}
+Markdown supports ordered (numbered) and unordered (bulleted) lists.
 
-◊p{Unordered lists use asterisks, pluses, and hyphens mdash interchangably mdash as list markers:}
+Unordered lists use asterisks, pluses, and hyphens mdash interchangably mdash as list markers:
 
-◊ul{◊li{Red}
-
-◊li{Green}
-
-◊li{Blue}
-
-}
-
-◊p{is equivalent to:}
-
-◊ul{◊li{Red}
+◊ul{
+◊li{Red}
 
 ◊li{Green}
 
 ◊li{Blue}
-
 }
 
-◊p{and:}
+is equivalent to:
 
-◊ul{◊li{Red}
+◊ul{
+◊li{Red}
 
 ◊li{Green}
 
 ◊li{Blue}
-
 }
 
-◊p{Ordered lists use numbers followed by periods:}
+and:
 
-◊ol{◊li{Bird}
+◊ul{
+◊li{Red}
+
+◊li{Green}
+
+◊li{Blue}
+}
+
+Ordered lists use numbers followed by periods:
+
+◊ol{
+◊li{Bird}
 
 ◊li{McHale}
 
 ◊li{Parish}
-
 }
 
-◊p{Itrsquos important to note that the actual numbers you use to mark the list have no effect on the HTML output Markdown produces. The HTML Markdown produces from the above list is:}
+Itrsquos important to note that the actual numbers you use to mark the list have no effect on the HTML output Markdown produces. The HTML Markdown produces from the above list is:
 
-◊p{If you instead wrote the list in Markdown like this:}
+If you instead wrote the list in Markdown like this:
 
-◊ol{◊li{Bird}
+◊ol{
+◊li{Bird}
 
 ◊li{McHale}
 
 ◊li{Parish}
-
 }
 
-◊p{or even:}
+or even:
 
-◊ol{◊li{Bird}
+◊ol{
+◊li{Bird}
 
 ◊li{McHale}
 
 ◊li{Parish}
-
 }
 
-◊p{yoursquod get the exact same HTML output. The point is, if you want to, you can use ordinal numbers in your ordered Markdown lists, so that the numbers in your source match the numbers in your published HTML. But if you want to be lazy, you donrsquot have to.}
+yoursquod get the exact same HTML output. The point is, if you want to, you can use ordinal numbers in your ordered Markdown lists, so that the numbers in your source match the numbers in your published HTML. But if you want to be lazy, you donrsquot have to.
 
-◊p{To make lists look nice, you can wrap items with hanging indents:}
+To make lists look nice, you can wrap items with hanging indents:
 
-◊ul{◊li{Lorem ipsum dolor sit amet, consectetuer adipiscing elit.  Aliquam hendrerit mi posuere lectus. Vestibulum enim wisi,  viverra nec, fringilla in, laoreet vitae, risus.}
+◊ul{
+◊li{Lorem ipsum dolor sit amet, consectetuer adipiscing elit.  Aliquam hendrerit mi posuere lectus. Vestibulum enim wisi,  viverra nec, fringilla in, laoreet vitae, risus.}
 
 ◊li{Donec sit amet nisl. Aliquam semper ipsum sit amet velit.  Suspendisse id sem consectetuer libero luctus adipiscing.}
-
 }
 
-◊p{But if you want to be lazy, you donrsquot have to:}
+But if you want to be lazy, you donrsquot have to:
 
-◊ul{◊li{Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aliquam hendrerit mi posuere lectus. Vestibulum enim wisi, viverra nec, fringilla in, laoreet vitae, risus.}
+◊ul{
+◊li{Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aliquam hendrerit mi posuere lectus. Vestibulum enim wisi, viverra nec, fringilla in, laoreet vitae, risus.}
 
 ◊li{Donec sit amet nisl. Aliquam semper ipsum sit amet velit. Suspendisse id sem consectetuer libero luctus adipiscing.}
-
 }
 
-◊p{List items may consist of multiple paragraphs. Each subsequent paragraph in a list item must be indented by either 4 spaces or one tab:}
+List items may consist of multiple paragraphs. Each subsequent paragraph in a list item must be indented by either 4 spaces or one tab:
 
-◊ol{◊li{◊p{This is a list item with two paragraphs. Lorem ipsum dolor  sit amet, consectetuer adipiscing elit. Aliquam hendrerit  mi posuere lectus.}
+◊ol{
+◊li{This is a list item with two paragraphs. Lorem ipsum dolor  sit amet, consectetuer adipiscing elit. Aliquam hendrerit  mi posuere lectus.
 
-◊p{Vestibulum enim wisi, viverra nec, fringilla in, laoreet vitae, risus. Donec sit amet nisl. Aliquam semper ipsum sit amet velit.}
-
-}
+Vestibulum enim wisi, viverra nec, fringilla in, laoreet vitae, risus. Donec sit amet nisl. Aliquam semper ipsum sit amet velit.}
 
 ◊li{Suspendisse id sem consectetuer libero luctus adipiscing.}
-
 }
 
-◊p{It looks nice if you indent every line of the subsequent paragraphs, but here again, Markdown will allow you to be lazy:}
+It looks nice if you indent every line of the subsequent paragraphs, but here again, Markdown will allow you to be lazy:
 
-◊ul{◊li{◊p{This is a list item with two paragraphs.}
+◊ul{
+◊li{This is a list item with two paragraphs.
 
-◊p{This is the second paragraph in the list item. Yoursquore only required to indent the first line. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.}
-
-}
+This is the second paragraph in the list item. Yoursquore only required to indent the first line. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.}
 
 ◊li{Another item in the same list.}
-
 }
 
-◊p{To put a blockquote within a list item, the blockquotersquos ◊code{>} delimiters need to be indented:}
+To put a blockquote within a list item, the blockquotersquos ◊code{>} delimiters need to be indented:
 
-◊ul{◊li{◊p{A list item with a blockquote:}
+◊ul{
+◊li{A list item with a blockquote:
 
-◊blockquote{◊p{This is a blockquote inside a list item.}
-
+◊blockquote{This is a blockquote inside a list item.}}
 }
 
-}
+To put a code block within a list item, the code block needs to be indented ◊em{twice} mdash 8 spaces or two tabs:
 
-}
+◊ul{
+◊li{A list item with a code block:
 
-◊p{To put a code block within a list item, the code block needs to be indented ◊em{twice} mdash 8 spaces or two tabs:}
-
-◊ul{◊li{◊p{A list item with a code block:}
-
-◊pre{◊code{<code goes here>}}
-
-}
-
+◊pre{◊code{<code goes here>}}}
 }
 
 ◊h3[#:id code-blocks]{Code Blocks}
 
-◊p{Pre-formatted code blocks are used for writing about programming or markup source code. Rather than forming normal paragraphs, the lines of a code block are interpreted literally. Markdown wraps a code block in both ◊code{<pre>} and ◊code{<code>} tags.}
+Pre-formatted code blocks are used for writing about programming or markup source code. Rather than forming normal paragraphs, the lines of a code block are interpreted literally. Markdown wraps a code block in both ◊code{<pre>} and ◊code{<code>} tags.
 
-◊p{To produce a code block in Markdown, simply indent every line of the block by at least 4 spaces or 1 tab.}
+To produce a code block in Markdown, simply indent every line of the block by at least 4 spaces or 1 tab.
 
-◊p{This is a normal paragraph:}
+This is a normal paragraph:
 
 ◊pre{◊code{This is a code block.}}
 
-◊p{Here is an example of AppleScript:}
+Here is an example of AppleScript:
 
 ◊pre{◊code{tell application "Foo"
     beep
 end tell}}
 
-◊p{A code block continues until it reaches a line that is not indented (or the end of the article).}
+A code block continues until it reaches a line that is not indented (or the end of the article).
 
-◊p{Within a code block, ampersands (◊code{&}) and angle brackets (◊code{<} and ◊code{>}) are automatically converted into HTML entities. This makes it very easy to include example HTML source code using Markdown mdash just paste it and indent it, and Markdown will handle the hassle of encoding the ampersands and angle brackets. For example, this:}
+Within a code block, ampersands (◊code{&}) and angle brackets (◊code{<} and ◊code{>}) are automatically converted into HTML entities. This makes it very easy to include example HTML source code using Markdown mdash just paste it and indent it, and Markdown will handle the hassle of encoding the ampersands and angle brackets. For example, this:
 
 ◊pre{◊code{<div class="footer">
     &copy; 2004 Foo Corporation
 </div>}}
 
-◊p{Regular Markdown syntax is not processed within code blocks. E.g., asterisks are just literal asterisks within a code block. This means itrsquos also easy to use Markdown to write about Markdownrsquos own syntax.}
+Regular Markdown syntax is not processed within code blocks. E.g., asterisks are just literal asterisks within a code block. This means itrsquos also easy to use Markdown to write about Markdownrsquos own syntax.
 
 ◊pre{◊code{tell application "Foo"
     beep
@@ -278,31 +250,30 @@ end tell}}
 
 ◊h3[#:id links]{Links}
 
-◊p{Markdown supports two style of links: ◊em{inline} and ◊em{reference}.}
+Markdown supports two style of links: ◊em{inline} and ◊em{reference}.
 
-◊p{In both styles, the link text is delimited by [square brackets].}
+In both styles, the link text is delimited by [square brackets].
 
-◊p{To create an inline link, use a set of regular parentheses immediately after the link textrsquos closing square bracket. Inside the parentheses, put the URL where you want the link to point, along with an ◊em{optional} title for the link, surrounded in quotes. For example:}
+To create an inline link, use a set of regular parentheses immediately after the link textrsquos closing square bracket. Inside the parentheses, put the URL where you want the link to point, along with an ◊em{optional} title for the link, surrounded in quotes. For example:
 
-◊p{This is ◊a[#:href http://example.com/]{an example} inline link.}
+This is ◊a[#:href http://example.com/]{an example} inline link.
 
-◊p{◊a[#:href http://example.net/]{This link} has no title attribute.}
+◊a[#:href http://example.net/]{This link} has no title attribute.
 
 ◊h3[#:id emphasis]{Emphasis}
 
-◊p{Markdown treats asterisks (◊code{*}) and underscores (◊code{_}) as indicators of emphasis. Text wrapped with one ◊code{*} or ◊code{_} will be wrapped with an HTML ◊code{<em>} tag; double ◊code{*}rsquos or ◊code{_}rsquos will be wrapped with an HTML ◊code{<strong>} tag. E.g., this input:}
+Markdown treats asterisks (◊code{*}) and underscores (◊code{_}) as indicators of emphasis. Text wrapped with one ◊code{*} or ◊code{_} will be wrapped with an HTML ◊code{<em>} tag; double ◊code{*}rsquos or ◊code{_}rsquos will be wrapped with an HTML ◊code{<strong>} tag. E.g., this input:
 
-◊p{◊em{single asterisks}}
+◊em{single asterisks}
 
-◊p{◊em{single underscores}}
+◊em{single underscores}
 
-◊p{◊strong{double asterisks}}
+◊strong{double asterisks}
 
-◊p{◊strong{double underscores}}
+◊strong{double underscores}
 
 ◊h3[#:id code]{Code}
 
-◊p{To indicate a span of code, wrap it with backtick quotes (◊code{`}). Unlike a pre-formatted code block, a code span indicates code within a normal paragraph. For example:}
+To indicate a span of code, wrap it with backtick quotes (◊code{`}). Unlike a pre-formatted code block, a code span indicates code within a normal paragraph. For example:
 
-◊p{Use the ◊code{printf()} function.}
-
+Use the ◊code{printf()} function.

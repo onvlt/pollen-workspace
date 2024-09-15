@@ -1,13 +1,9 @@
 #lang racket
-(require pollen/decode txexpr threading)
+(require pollen/decode txexpr threading "list-utils.rkt")
 (provide txexpr->pm)
 
-; (define (txexpr->plain elements)
-;   (apply string-append (filter string? (flatten elements))))
-
 (define (encode-elements elements)
-  (define fmt-elements (map (λ (elem) (format "~a" elem)) elements))
-  (format "{~a}" (apply string-append fmt-elements)))
+  (map (λ (elem) (format "~a" elem)) elements))
 
 (define (encode-attrs attrs)
   (~> attrs
@@ -16,17 +12,16 @@
              (format "#:~a ~a" key value)) _)
       (string-join " " #:before-first "[" #:after-last "]")))
 
-(define/contract (encode-tag expr)
-  (-> txexpr? string?)
-  (define tag (get-tag expr))
+(define (encode-tag expr #:block? [block? #f])
   (define attrs (get-attrs expr))
   (define elements (get-elements expr))
-
   (define tag-str (format "◊~a" (get-tag expr)))
   (define attrs-str
     (cond [(empty? attrs) #f]
           [else (encode-attrs attrs)]))
-  (define elements-str (encode-elements elements))
+  (define elements-str
+    (cond [block? (format "{\n~a\n}" (apply string-append elements))]
+          [else (format "{~a}" (apply string-append elements))]))
 
   (apply string-append (filter identity (list tag-str attrs-str elements-str))))
 
@@ -36,9 +31,15 @@
   (cond
     [(regexp-match? #rx"^temp-" (symbol->string tag)) expr]
     [(eq? tag 'root) (apply string-append (get-elements expr))]
-    ; ((eq? tag 'p) (apply string-append (get-elements expr)))
-    [(block-txexpr? expr) (string-append (encode-tag expr) "\n\n")]
+    ((eq? tag 'p) (apply string-append (get-elements expr)))
+    [(member tag '(ul ol)) (encode-tag expr #:block? #t)]
     [#t (encode-tag expr)]))
 
+(define (intersperse-newlines elements)
+  (intersperse elements block-txexpr? "\n\n"))
+
 (define (txexpr->pm . elements)
-  (decode-elements elements #:txexpr-proc encode-txexpr))
+  (~> elements
+      (decode-elements #:txexpr-elements-proc intersperse-newlines)
+      (decode-elements #:txexpr-proc encode-txexpr
+                       #:txexpr-elements-proc encode-elements)))
