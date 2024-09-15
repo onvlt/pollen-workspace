@@ -62,27 +62,38 @@ Optionally, you may ldquocloserdquo atx-style headers. This is purely cosmetic m
 
 Markdown uses email-style ◊code{>} characters for blockquoting. If yoursquore familiar with quoting passages of text in an email message, then you know how to create a blockquote in Markdown. It looks best if you hard wrap the text and put a ◊code{>} before every line:
 
-◊blockquote{This is a blockquote with two paragraphs. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aliquam hendrerit mi posuere lectus. Vestibulum enim wisi, viverra nec, fringilla in, laoreet vitae, risus.
+◊blockquote{
+This is a blockquote with two paragraphs. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aliquam hendrerit mi posuere lectus. Vestibulum enim wisi, viverra nec, fringilla in, laoreet vitae, risus.
 
-Donec sit amet nisl. Aliquam semper ipsum sit amet velit. Suspendisse id sem consectetuer libero luctus adipiscing.}
+Donec sit amet nisl. Aliquam semper ipsum sit amet velit. Suspendisse id sem consectetuer libero luctus adipiscing.
+}
 
 Markdown allows you to be lazy and only put the ◊code{>} before the first line of a hard-wrapped paragraph:
 
-◊blockquote{This is a blockquote with two paragraphs. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aliquam hendrerit mi posuere lectus. Vestibulum enim wisi, viverra nec, fringilla in, laoreet vitae, risus.}
+◊blockquote{
+This is a blockquote with two paragraphs. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aliquam hendrerit mi posuere lectus. Vestibulum enim wisi, viverra nec, fringilla in, laoreet vitae, risus.
+}
 
-◊blockquote{Donec sit amet nisl. Aliquam semper ipsum sit amet velit. Suspendisse id sem consectetuer libero luctus adipiscing.}
+◊blockquote{
+Donec sit amet nisl. Aliquam semper ipsum sit amet velit. Suspendisse id sem consectetuer libero luctus adipiscing.
+}
 
 Blockquotes can be nested (i.e. a blockquote-in-a-blockquote) by adding additional levels of ◊code{>}:
 
-◊blockquote{This is the first level of quoting.
+◊blockquote{
+This is the first level of quoting.
 
-◊blockquote{This is nested blockquote.}
+◊blockquote{
+This is nested blockquote.
+}
 
-Back to the first level.}
+Back to the first level.
+}
 
 Blockquotes can contain other Markdown elements, including headers, lists, and code blocks:
 
-◊blockquote{◊h2[#:id this-is-a-header]{This is a header.}
+◊blockquote{
+◊h2[#:id this-is-a-header]{This is a header.}
 
 ◊ol{
 ◊li{This is the first list item.}
@@ -92,7 +103,10 @@ Blockquotes can contain other Markdown elements, including headers, lists, and c
 
 Herersquos some example code:
 
-◊pre{◊code{return shell_exec("echo $input | $markdown_script");}}}
+◊pre{
+◊code{return shell_exec("echo $input | $markdown_script");}
+}
+}
 
 Any decent text editor should make email-style quoting easy. For example, with BBEdit, you can make a selection and choose Increase Quote Level from the Text menu.
 
@@ -205,7 +219,9 @@ To put a blockquote within a list item, the blockquotersquos ◊code{>} delimite
 ◊ul{
 ◊li{A list item with a blockquote:
 
-◊blockquote{This is a blockquote inside a list item.}}
+◊blockquote{
+This is a blockquote inside a list item.
+}}
 }
 
 To put a code block within a list item, the code block needs to be indented ◊em{twice} mdash 8 spaces or two tabs:
@@ -213,7 +229,9 @@ To put a code block within a list item, the code block needs to be indented ◊e
 ◊ul{
 ◊li{A list item with a code block:
 
-◊pre{◊code{<code goes here>}}}
+◊pre{
+◊code{<code goes here>}
+}}
 }
 
 ◊h3[#:id code-blocks]{Code Blocks}
@@ -224,27 +242,35 @@ To produce a code block in Markdown, simply indent every line of the block by at
 
 This is a normal paragraph:
 
-◊pre{◊code{This is a code block.}}
+◊pre{
+◊code{This is a code block.}
+}
 
 Here is an example of AppleScript:
 
-◊pre{◊code{tell application "Foo"
+◊pre{
+◊code{tell application "Foo"
     beep
-end tell}}
+end tell}
+}
 
 A code block continues until it reaches a line that is not indented (or the end of the article).
 
 Within a code block, ampersands (◊code{&}) and angle brackets (◊code{<} and ◊code{>}) are automatically converted into HTML entities. This makes it very easy to include example HTML source code using Markdown mdash just paste it and indent it, and Markdown will handle the hassle of encoding the ampersands and angle brackets. For example, this:
 
-◊pre{◊code{<div class="footer">
+◊pre{
+◊code{<div class="footer">
     &copy; 2004 Foo Corporation
-</div>}}
+</div>}
+}
 
 Regular Markdown syntax is not processed within code blocks. E.g., asterisks are just literal asterisks within a code block. This means itrsquos also easy to use Markdown to write about Markdownrsquos own syntax.
 
-◊pre{◊code{tell application "Foo"
+◊pre{
+◊code{tell application "Foo"
     beep
-end tell}}
+end tell}
+}
 
 ◊h2[#:id span-elements]{Span Elements}
 

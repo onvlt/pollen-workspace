@@ -11,7 +11,11 @@
                 (match-define (list key value) item)
                 (format "#:~a ~a" key value)) attrs)))
 
-(define (encode-tag expr #:block? [block? #f])
+
+(define (wrap-content-with-newlines? expr)
+  (and (block-txexpr? expr) (not (member (get-tag expr) '(h1 h2 h3 h4 h5 h6 li hr)))))
+
+(define (encode-tag expr)
   (define attrs (get-attrs expr))
   (define elements (get-elements expr))
   (define tag-str (format "◊~a" (get-tag expr)))
@@ -19,7 +23,8 @@
     (cond [(empty? attrs) #f]
           [else (format "[~a]" (encode-attrs attrs))]))
   (define elements-str
-    (cond [block? (format "{\n~a\n}" (apply string-append elements))]
+    (cond [(wrap-content-with-newlines? expr)
+           (format "{\n~a\n}" (apply string-append elements))]
           [else (format "{~a}" (apply string-append elements))]))
 
   (apply string-append (filter identity (list tag-str attrs-str elements-str))))
@@ -31,7 +36,7 @@
     [(regexp-match? #rx"^temp-" (symbol->string tag)) expr]
     [(eq? tag 'root) (apply string-append (get-elements expr))]
     ((eq? tag 'p) (apply string-append (get-elements expr)))
-    [(member tag '(ul ol)) (encode-tag expr #:block? #t)]
+    [(member tag '(ul ol)) (encode-tag expr)]
     [#t (encode-tag expr)]))
 
 (define (intersperse-newlines elements)
