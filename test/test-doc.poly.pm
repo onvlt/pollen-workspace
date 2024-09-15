@@ -32,20 +32,20 @@ Markdown section separator
 
 Pollen section separator
 
+Bullet list
+
 ◊bullet-list{
-  Bullet list item 1
-
-  Bullet list item 2
-
-  Bullet list item 3
+  ◊(item) Item 1
+  ◊(item) Item 2
+  ◊(item) Item 3
 }
 
+Number list
+
 ◊number-list{
-  Number list item 1
-
-  Number list item 2
-
-  Number list item 3
+  ◊(item) Item 1
+  ◊(item) Item 2
+  ◊(item) Item 3
 }
 
 ◊table{

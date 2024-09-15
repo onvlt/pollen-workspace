@@ -2,7 +2,7 @@
 
 \setupinteraction
   [state=start,
-  title={Od *slumů* k neformálnímu prostoru v Praze — esej},
+  title={Lists},
   author={Ondřej Nývlt}
   color=black,
   contrastcolor=black]
@@ -115,65 +115,68 @@
 \starttext
 {\setupindenting[no]
 { \hfill {\ss author}}
-\title{Od *slumů* k neformálnímu prostoru v Praze — esej}
+\title{Lists}
 }
 \blank[3*line]
 
-\chapter{Markdown heading}
+Simple bullet list
 
-\chapter{Pollen heading}
-
-Simple paragraph.
-
-This is paragraph with {\em markdown emphasis}.
-
-This is paragraph with {\em pollen emphasis}.
-
-This is paragraph with {\bf markdown strong emphasis}.
-
-This is paragraph with {\bf pollen strong emphasis}.
-
-\section{Markdown heading with {\em markdown emphasis}}
-
-\section{Pollen heading with {\em pollen emphasis}}
-
-\subsection{Markdown heading with {\em pollen emphasis}}
-
-\subsection{Pollen heading with {\em markdown emphasis}}
-
-***
-
-Markdown section separator
-
-***
-
-Pollen section separator
-
-Bullet list
-
-\startitemize
+\startitemize[1,packed]
 \item Item 1
 \item Item 2
 \item Item 3
 \stopitemize
 
-Number list
+Bullet list with multiple paragraphs.
 
-\startitemize[n]
-\item Item 1
+\startitemize[1,packed]
+\item First paragraph.
+
+Second paragraph.
+
+
 \item Item 2
 \item Item 3
 \stopitemize
 
-\startplacetable[location=here,number=no]
-\starttabulate
-Model \NC Pozitivní \NC Reflexivní \AR
-Metoda \NC Šetření \NC Rozšířený případ \AR
-Techniky empirického zkoumání \NC Rozhovor \NC Zúčastněné pozorování \AR
-Vztah vědce k "druhým" \NC Izolace \NC Participace \AR
-Limity \NC Účinky kontextu \NC Účinky moci \AR
-Objektivita \NC Procedurální \NC Embedded \AR
-\stoptabulate
-\stopplacetable
+Bullet list with nested number list.
+
+\startitemize[1,packed]
+\item Item 1
+
+\startitemize[n,packed]
+\item Subitem 1
+\item Subitem 2
+\item Subitem 3
+\stopitemize
+
+
+\item Item 2
+\item Item 3
+\stopitemize
+
+Complex bullet list
+
+\startitemize[1,packed]
+\item Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi est urna, ultrices sit amet consectetur in, dignissim id nunc. Ut dui mi, facilisis et molestie vel, luctus nec odio.
+
+Nunc eget ex eget nulla mollis vestibulum vitae in ligula. Nulla tempor enim erat, eget placerat lacus lacinia at. Phasellus bibendum accumsan quam, quis finibus nisi viverra in.
+
+\startitemize[1,packed]
+\item Maecenas sagittis nisl sem, ut lacinia dui semper sollicitudin. Vivamus eget condimentum massa. Nulla facilisi. Aliquam convallis ullamcorper ex nec mollis. Aliquam sit amet egestas elit. Sed iaculis dui at augue scelerisque, et lacinia nulla consequat. Pellentesque a magna sodales, gravida odio nec, rhoncus sem.
+\item Etiam vitae leo non justo bibendum dapibus. Suspendisse posuere arcu velit, ac malesuada urna iaculis eu. Sed a ultrices erat. Etiam at ex ut erat tristique sodales. Aliquam odio nibh, luctus maximus massa ac, iaculis tincidunt neque. Vivamus vel elementum turpis.
+\stopitemize
+
+
+\item Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi est urna, ultrices sit amet consectetur in, dignissim id nunc. Ut dui mi, facilisis et molestie vel, luctus nec odio. Nunc eget ex eget nulla mollis vestibulum vitae in ligula. Nulla tempor enim erat, eget placerat lacus lacinia at.
+
+\startitemize[1,packed]
+\item Duis pretium, purus non laoreet tempor
+\item Quam nulla viverra risus, quis aliquam nulla nunc sed leo
+\stopitemize
+
+
+\item Ut a condimentum nisi, non ornare magna. Quisque pellentesque interdum arcu, id laoreet elit vulputate ac. Praesent suscipit ut nisi semper lacinia. Donec scelerisque semper varius. Pellentesque non tincidunt erat. Aenean efficitur dapibus diam, ut commodo enim posuere ac.
+\stopitemize
 
 \stoptext

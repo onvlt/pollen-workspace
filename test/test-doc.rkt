@@ -20,14 +20,10 @@
      (p "Markdown section separator")
      (hr)
      (p "Pollen section separator")
-     (ul
-      (li "Bullet list item 1")
-      (li "Bullet list item 2")
-      (li "Bullet list item 3"))
-     (ol
-      (li "Number list item 1")
-      (li "Number list item 2")
-      (li "Number list item 3"))
+     (p "Bullet list")
+     (ul (li "Item 1") (li "Item 2") (li "Item 3"))
+     (p "Number list")
+     (ol (li "Item 1") (li "Item 2") (li "Item 3"))
      (table
       (row "Model" (col) "Pozitivní" (col) "Reflexivní")
       (row "Metoda" (col) "Šetření" (col) "Rozšířený případ")
