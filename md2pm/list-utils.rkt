@@ -1,45 +1,76 @@
 #lang racket
-(provide intersperse)
+(provide add-between-neighbors)
 
-(define (intersperse lst pred separator)
-  (define (helper lst last-satisfied?)
-    (cond [(empty? lst) empty]
-          [else
-           (define item (car lst))
-           (define current-satisfies? (pred item))
-           (define new-tail (helper (cdr lst) current-satisfies?))
-           (cond [(and last-satisfied? current-satisfies?)
-                  (cons separator (cons item new-tail))]
-                 [else (cons item new-tail)])]))
-  (helper lst #f))
+(define (add-between-neighbors lst proc)
+  (define (helper lst acc)
+    (cond
+      [(or (null? lst) (null? (cdr lst)))
+       (reverse (append lst acc))]
+      [else
+       (let* ([first (car lst)]
+              [second (cadr lst)]
+              [result (proc first second)])
+         (if result
+             (helper (cdr lst) (cons result (cons first acc)))
+             (helper (cdr lst) (cons first acc))))]))
+
+  (helper lst '()))
 
 (module+ test
   (require rackunit)
-
-  (check-equal? (intersperse '() even? 'x) '()
+  (check-equal? (add-between-neighbors '() (lambda (a b) #t))
+                '()
                 "Empty list should return an empty list")
 
-  (check-equal? (intersperse '(1 2 3 4 5) even? 'x) '(1 2 3 4 5)
-                "List with no consecutive even numbers should remain unchanged")
+  ; Test 2: Single element list
+  (check-equal? (add-between-neighbors '(1) (lambda (a b) #t))
+                '(1)
+                "Single element list should return the same list")
 
-  (check-equal? (intersperse '(2 4 6 1 8 10) even? 'x) '(2 x 4 x 6 1 8 x 10)
-                "List with consecutive even numbers should have 'x' inserted between them")
+  ; Test 3: Two element list with truthy proc
+  (check-equal? (add-between-neighbors '(1 2) (lambda (a b) 'x))
+                '(1 x 2)
+                "Two element list with truthy proc should insert element")
 
-  (check-equal? (intersperse '(2 4 6 8 10) even? 'x) '(2 x 4 x 6 x 8 x 10)
-                "List with all even numbers should have 'x' inserted between all elements")
+  ; Test 4: Two element list with falsy proc
+  (check-equal? (add-between-neighbors '(1 2) (lambda (a b) #f))
+                '(1 2)
+                "Two element list with falsy proc should not insert element")
 
-  (check-equal? (intersperse '(1) even? 'x) '(1)
-                "Single-element list should remain unchanged")
+  ; Test 5: Longer list with alternating truthy and falsy results
+  (check-equal? (add-between-neighbors '(1 2 3 4 5)
+                                       (lambda (a b) (if (odd? a) 'x #f)))
+                '(1 x 2 3 x 4 5)
+                "Should insert 'x' only after odd numbers")
 
-  (check-equal? (intersperse '(2 4) even? 'x) '(2 x 4)
-                "Two-element list with both elements satisfying predicate should have separator inserted")
+  ; Test 6: All elements cause insertion
+  (check-equal? (add-between-neighbors '(1 2 3 4) (lambda (a b) '+))
+                '(1 + 2 + 3 + 4)
+                "Should insert '+' between all elements")
 
-  (check-equal? (intersperse '(1 2) even? 'x) '(1 2)
-                "Two-element list with only one element satisfying predicate should remain unchanged")
+  ; Test 7: No elements cause insertion
+  (check-equal? (add-between-neighbors '(1 2 3 4) (lambda (a b) #f))
+                '(1 2 3 4)
+                "Should not insert anything")
 
-  (check-equal? (intersperse '("a" "b" "cc" "d" "ee" "ff") (lambda (s) (> (string-length s) 1)) 'sep)
-                '("a" "b" "cc" "d" "ee" sep "ff")
-                "List with strings, separating strings longer than 1 character")
+  ; Test 8: Proc returns different values
+  (check-equal? (add-between-neighbors '(1 2 3 4 5)
+                                       (lambda (a b) (if (< a b) (+ a b) #f)))
+                '(1 3 2 5 3 7 4 9 5)
+                "Should insert sum when second number is larger")
 
-  (check-equal? (intersperse '(1 3 5 2 7 9 11) odd? 0) '(1 0 3 0 5 2 7 0 9 0 11)
-                "List with odd numbers, using 0 as separator"))
+  ; Test 9: Proc uses both arguments
+  (check-equal? (add-between-neighbors '("a" "ab" "abc" "b" "bc")
+                                       (lambda (a b)
+                                         (if (and (< (string-length a) (string-length b))
+                                                  (string=? (substring b 0 (string-length a)) a))
+                                             'substring
+                                             #f)))
+                '("a" substring "ab" substring "abc" "b" substring "bc")
+                "Should insert 'substring' when second string is longer and starts with first string")
+
+  ; Test 10: List with repeated elements
+  (check-equal? (add-between-neighbors '(1 1 2 2 3 3)
+                                       (lambda (a b) (if (= a b) 'same #f)))
+                '(1 same 1 2 same 2 3 same 3)
+                "Should insert 'same' between equal adjacent numbers"))

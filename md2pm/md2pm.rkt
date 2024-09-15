@@ -37,7 +37,8 @@
     [#t (encode-tag expr)]))
 
 (define (intersperse-newlines elements)
-  (intersperse elements block-txexpr? "\n\n"))
+  (add-between-neighbors elements (λ (a b) (cond [(or (block-txexpr? a) (block-txexpr? b)) "\n\n"]
+                                                 [else #f]))))
 
 (define (wrap-block-contents expr)
   (define-values (tag attrs elements) (values (get-tag expr) (get-attrs expr) (get-elements expr)))
