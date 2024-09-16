@@ -7,10 +7,10 @@
          (map (λ (elem) (format "~a" elem)) elements)))
 
 (define (encode-attrs attrs)
-  (apply string-append
-         (map (λ (item)
-                (match-define (list key value) item)
-                (format "#:~a ~s" key value)) attrs)))
+  (string-join
+   (map (λ (item)
+          (match-define (list key value) item)
+          (format "#:~a ~s" key value)) attrs) " "))
 
 (define (encode-tag expr)
   (define-values (tag attrs elements)
@@ -24,16 +24,18 @@
 
 (define/contract (encode-txexpr expr)
   (-> txexpr? any/c)
-  (define-values (tag attrs elements)
-    (values (get-tag expr) (get-attrs expr) (get-elements expr)))
+  (define-values (tag elements)
+    (values (get-tag expr) (get-elements expr)))
   (case tag
     [(root p) (encode-elements elements)]
-    [(h1) (encode-tag (txexpr 'chapter attrs elements))]
-    [(h2) (encode-tag (txexpr 'section attrs elements))]
-    [(h3) (encode-tag (txexpr 'subsection attrs elements))]
-    [(ul) (encode-tag (txexpr 'bullet-list attrs elements))]
-    [(ol) (encode-tag (txexpr 'number-list attrs elements))]
+    [(h1) (format "◊define-meta[title]{~a}" (encode-elements elements))]
+    [(h2) (encode-tag (txexpr 'section empty elements))]
+    [(h3) (encode-tag (txexpr 'subsection empty elements))]
+    [(ul) (encode-tag (txexpr 'bullet-list empty elements))]
+    [(ol) (encode-tag (txexpr 'number-list empty elements))]
     [(li) (encode-elements (cons "◊(item) " elements))]
+    [(i) (encode-tag (txexpr 'em empty elements))]
+    ((b) (encode-tag (txexpr 'strong empty elements)))
     [else (encode-tag expr)]))
 
 (define (intersperse-newlines elements)
