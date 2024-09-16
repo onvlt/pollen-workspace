@@ -1,0 +1,697 @@
+#lang pollen
+
+# It is value that brings universes into being
+
+Any theoretical term is an implicit statement about human nature. Anthropologists tend to be uncomfortable with this fact but it is nonetheless true. Even if one were to make a statement as apparently innocuous as “ritual can take many forms in many places,” one is still asserting that “ritual” is a meaningful cross-cultural category, implying—as pretty much any anthropological discussion of ritual invariably does imply—that we can assume all human beings have engaged in some kind of ritual activity at some point or another, that ritual is an inherent aspect of human sociality, even if there’s no scholarly consensus whatsoever as to what, precisely, a ritual is or what it says about us that we are all in some sense ritual producing beings. And the same is true of any other theoretical term: kinship, authority, labor, symbol, the body, performance, or anything else.
+
+The anthropological study of value might be considered something of an extreme case in this regard because while there is a fairly widespread feeling among anthropologists that there is something out there that can be called “value” (or maybe “values,” or more likely both), and that all human beings do, in some sense, organize their lives, feelings, and desires around the pursuit or furtherance of them, it often seems as if the term could mean most anything. This collection bears excellent testimony to the dilemma. We have assembled here discussions of the value of everything from corporate brand names, a sense of community, imported necklaces, religious devotion, financial instruments, to the ability to speak a language, play tricks on invisible spirits, or perform a concerto on the violin. It’s genuinely hard to say what all these have in common, other than that some people wish they had them more than they already do. Not surprising, perhaps, the organizers of the conference from which these papers emerged came out of the experience uncertain whether a single, unified anthropological theory of value is even desirable.
+
+***
+
+Yet at the same time, I am convinced that if it isn’t, this is very bad news for the project of anthropology. In a very real sense, anthropology could be said to have emerged around questions of value, and such questions have remained just below the surface of just about every important theoretical debate.
+
+When Johan Gottfried von Herder first proposed the concept of culture in the eighteenth century, some of his principle targets were the state-of-nature fantasies of political thinkers like Thomas Hobbes or Jean-Jacques Rousseau, popular in his day, who assumed that primitive humans must have either lived in asocial isolation or quickly came to a war of all-against-all over their pursuit of material advantage. The problem with this whole assumption, he noted, was that it assumes that humans were all pursuing the same sorts of thing: as two shepherds, he notes, might quarrel over a stretch of pasturage. No doubt this might have happened now and then—though it’s hard to imagine it would be much of a factor at a time when humans were so thin on the ground and resources were relatively abundant. Anyway, such quarrels would hardly explain either the origins of social order or of the real basis of human enmity. Instead, what one actually observes is humans rapidly clustering into different language groups, in which members had a spontaneous sense of familiar solidarity with one another but profound contempt for their neighbors, precisely because (this is the subtext at least) they are *not* pursuing the same forms of value as they ([\[1772\] 2002](#hau3.2.012_bib34): 147–54). Similarly, all nations of antiquity could be distinguished by which values they pursued: order and security among the Egyptians, political freedom and artistic contests among the Greeks, religious virtues among the Jews, legality, propriety, and magnificence among the Romans, and so on ([\[1774\] 2004](#hau3.2.012_bib35)). Cultures, when first conceived, were thus imagined first and foremost as fields for the pursuit of certain forms of value— values that shaped humans into creatures whose very perceptions and sensibilities were attuned largely to that pursuit.
+
+Much of the tradition of social thought that followed in Herder’s wake in Germany, one that conceived of human society as an active project, could equally well be seen as so many attempts to find some kind of common substance underlying all these different forms of value. Hegel’s *Phenomenology*, which organized each historic culture as one moment in a single project of the selfrealization of the human spirit, was perhaps the most ambitious. Marx often seemed to be making fun of this tradition, as in the famous footnote in *Capital* where he chided critics for objecting to his economic analysis of past ages, insisting that for the Greeks, politics reigned supreme, in medieval Europe, religious faith, and so on (Marx’s rejoinder of course is that it was necessary to understand the material conditions that made such pursuits possible to begin with \[[(1867) 1977](#hau3.2.012_bib54):57n34\]). But in the end, he was working squarely in the same tradition, and his theory of value was ultimately another way of conceiving human creativity (“production”) as the endless pursuit of alienated refractions of itself. Perhaps it’s inevitable. Perhaps something like this necessarily follows if one starts not with the idea of society as a collection of individuals or groups and then sets about to understand how that society hangs together, as the French and British sociological traditions tended to do, but rather, as the German does, as a mode of coordinating projects of human action. If so, there must be some concept or conceptions of value that set everything in motion; and if we are to assume that human beings are on some level ultimately the same sorts of creature, we also have to assume that on some ultimate level we are all pursuing the same sorts of thing.
+
+***
+
+This, at any rate, explains why value and values have always been more of a central issue to American cultural anthropology, with its theoretical roots in the German intellectual tradition, than in either Great Britain or France.[1](#hau3.2.012_fn1) These issues were much at the fore during my own graduate training at the University of Chicago in the late 1980s and early 1990s. From a student’s perspective at least, the intellectual climate in the Chicago anthropology department at the time was genuinely exhilarating. We felt we were at the brink of important theoretical breakthroughs; unpublished papers and counterpapers passed from hand to hand, or were avidly hoarded; clashes during the discussion sessions of weekly seminars took on what seemed like historical significance. In retrospect, if many of us are now tempted to see the whole scene as vaguely ridiculous, it is probably because it was the last moment when anthropologists really believed their own discipline was in a position to make important theoretical interventions in many of the most important issues of Western social thought.
+
+Were they? I am still convinced that, in some ways, they were right. This is particularly true of value theory, a kind of volatile synthesis of Marx, Hegel, and certain elements of structuralism (drawn less from Lévi-Strauss than from Piaget and Dumont). Its chief avatars at the time were Terence Turner and Nancy Munn. At the time, Turner’s most important work remained unpublished, circulating in manuscript (e.g., [1984a](#hau3.2.012_bib75), [1987](#hau3.2.012_bib77), [1988](#hau3.2.012_bib78), there were many others), often in multiple drafts in notoriously difficult language, or if it had seen print, it was only in obscure venues unavailable in most libraries ([1979a](#hau3.2.012_bib73), [1984b](#hau3.2.012_bib76)) or, at best (e.g., [1979b](#hau3.2.012_bib74)), languishing because it was written in a language that no one could really hope to understand who had not heard Turner explain the concepts in person. As a result, we had a sense that the promised revolution never quite happened, that the core magic texts remained hidden, never quite to be revealed. When I conceived the idea of writing my own *Toward an anthropological theory of value* ([2001](#hau3.2.012_bib09)) in the late 1990s, I originally thought of it as much as anything as an attempt to draw all these texts and arguments out into the open—I imagined its appearance would be followed by irate critiques from many of the principals insisting I had got their core arguments wrong, and a flurry of productive debates. Nothing of the sort ensued. Indeed, the book seems to have appeared at precisely the moment when the discipline was collectively dismissing all such great debates as somehow passé, in fact, anthropological theory itself (that is, theory that emerged from within anthropology as opposed to theory borrowed from Continental philosophers) as tokens of airs that anthropologists, with their colonial legacy, really ought not be putting on—even itself as a kind of left-over, would-be intellectual imperialism.
+
+Not all of that work has been lost. At the time, we often made a shorthand distinction between the structuralist camp (or structural-history camp), whose prime avatars were Marshall Sahlins and Valerio Valeri, and the “value people.” Much of the work of the first camp have, indeed, seen print and had an impact on the discipline. But history has not treated the value camp well. Munn ([1977](#hau3.2.012_bib56), [1983](#hau3.2.012_bib57), [1986](#hau3.2.012_bib58)) is now seen largely as a theorist, not of value but of time and space, and while Turner’s ideas did inspire a certain number of other scholars (e.g., Myers [1986](#hau3.2.012_bib59), [1993](#hau3.2.012_bib60), [2001](#hau3.2.012_bib61); Sangren [1987a](#hau3.2.012_bib68), [1987b](#hau3.2.012_bib69), [2000](#hau3.2.012_bib70); Fajans [1993](#hau3.2.012_bib19), [1997](#hau3.2.012_bib20); Holmberg [2000](#hau3.2.012_bib48); Cepek [2008](#hau3.2.012_bib11); White [2010](#hau3.2.012_bib91), [2011](#hau3.2.012_bib92)) their overall impact on the discipline has been extremely limited.
+
+A valiant effort in the last decade by David Pederson and Paul Eiss ([2002](#hau3.2.012_bib16)) to bring value theory back to the center of debate in the middle of the last decade similarly made little headway. In fact, even when in the course of it, versions of some of the basic original texts did finally come to light (e.g. Turner [2006](#hau3.2.012_bib84), [2008](#hau3.2.012_bib85)) they attracted little attention. Again, not because these debates have been resolved. They haven’t. They’ve simply been set aside.
+
+True, there were other factors at play. Turner himself was always the very opposite of an empire-builder. What’s more, when he did put out his core arguments on value theory, he always framed them primarily as an argument about the correct reading of Marx, or, at least, of the appropriate reading of Marx for a Marxian anthropology—a subfield that increasingly can barely be said to exist— rather than as a set of insights into the nature of human social life important in their own right. My own intervention appeared at just the moment I was gaining attention as an activist involved with the global justice movement. Apparently, it seems difficult within the discipline to conceive of a fellow scholar as both a theorist and activist at the same time, leading to the rather confusing situation (at least it was confusing for me) where my deployment of even quite arcane elements of value theory to political questions, or even to develop them in mass-circulation venues like *Harpers* (e.g., Graeber [2005a](#hau3.2.012_bib24), [2007a](#hau3.2.012_bib28)) sparked much more interest and debate among a broader public than any of my scholarly essays on similar topics ([2005b](#hau3.2.012_bib25), [2005c](#hau3.2.012_bib26), [2006](#hau3.2.012_bib27), [2011](#hau3.2.012_bib30)) did within the academy.
+
+***
+
+I write this not just as a way of lamenting the infatuations of my lost intellectual youth but rather because I think anthropology might finally be emerging from the near-suicidal crisis of faith that shook it in the 1980s, and be once again be able to imagine itself as in a position to make major contributions to social theory in its own right. (HAU itself is founded on the gamble that it is.) But I also think that in order to do so, all these debates need to be put back on the table and understood within the larger intellectual currents that created the discipline of anthropology in the first place. This is why I began by emphasizing that Herder and Marx were ultimately dealing with the same sorts of question.
+
+This is what I tried to argue in *Toward an anthropological theory of value* as well: that value will necessarily be a key issue if we see social worlds not just as a collection of persons and things but rather as a project of mutual creation, as something collectively made and remade. This is why most debates over Marx’s deployment of the “labor theory of value” completely miss the mark. Marx’s theory of value was above all a way of asking the following question: assuming that we do collectively make our world, that we collectively remake it daily, then why is it that we somehow end up creating a world that few of us particularly like, most find unjust, and over which no one feels they have any ultimate control? This is not an attempt to produce a scientific law, which can demonstrate how specific units of labor ultimately determine the prices of specific of commodities,[2](#hau3.2.012_fn2) but rather, an attempt to answer a fundamental *existential* question. And the answer he found—not so much the specific arguments about use value, exchange value, wages, and so forth as the form of the argument—provides perhaps the most compelling model yet proposed for how value (and by extension, politics, ritual, symbolism) can be analyzed in any social context.
+
+So let me see if I can put some of these ideas back on the table again. It seems to me the best way to do it will be to set out, as clearly as I can, five ways that what might be called Chicago value theory—or with hope, someday, just the *ethnographic theory of value*—does indeed make fresh and important interventions in questions of social theory more generally. The first two of these are directly derived from Turner’s work, and were, indeed, first developed to disrupt conventional assumptions about what Marx was really trying to do, and therefore, what a properly Marxian anthropology might look like. But I am convinced that they have much wider implications. The third, which is a synthesis of Turner’s ideas and mine, implies a new way of conceiving society. The last two, which are my own, propose some new—and, I hope fruitful—ways of thinking about cosmology, “ontology,” and imagination.
+
+> 1) **Production as people-making**. In the *German ideology*, Marx and Engels made clear that “production” always means the production of material goods *and* social relations—and therefore, by extension, human beings, who recreate themselves and each other in the very process of acting on the world. This insight might appear to have been rapidly lost in Marx’s later emphasis on political economy and the production of commodities, but in fact Marx believed that the capitalist mode of production that he went to such painstaking lengths to describe was perverse precisely because it required such an analysis to understand its inner workings; that is, it was perverse because it saw human beings primarily as a means to produce wealth rather than the other way around. Nowhere in the ancient world, Marx noted in his ethnographic notebooks ([\[1858\] 1964](#hau3.2.012_bib53)), did it even occur to anyone to ask what are the conditions that would create the most wealth— even if this seems the only question that we are allowed to ask today—rather, it was assumed that wealth was one, often ambivalent, factor in the real business of human life: the creation of human beings who could be proper citizens of their communities. And, he adds, they had it right. *If labor consists of all those creative actions whereby we shape and reshape the world around us, ourselves, and especially each other, material wealth only exists to further that task of shaping one another into the sort of beings we feel ought to exist, and we would wish to have around us.*
+
+What this suggests is that the system of exchange value does not just operate to facilitate exploitation within the factory by disguising the fact that value comes from labor, it operates on an even more insidious level by encouraging us to believe that only certain forms of labor (waged labor, or at best, labor that contributes to producing marketable commodities) produce value in the first place. It also suggests something even more radical: that what is described in the Marxist literature as “reproductive labor,” housework, child care, the making, shaping, education, nurturance, and maintenance of those who perform labor, should not be viewed as some secondary phenomenon, the mere reproduction of a workforce capable of producing marketable commodities, but rather, as the most elementary form of *real* value-producing labor, as the very core and essence of human creative life. The fact that capitalism represents it as the mere reproduction of a workforce is the ultimate indication of its perversity, its systematic violation of the Kantian categorical imperative that human beings should always be treated as ends and not as means.
+
+All this is not just an intervention—however radical—in Marxist theory. It opens up all sorts of new perspectives on familiar problems. Most obviously, it provides an elegant solution for the value/values problem. The entire field of anthropological value theory since the 1980s has been founded on a single intuition: the fact that we use the same word to describe the benefits and virtues of a commodity for sale on the market (the “value” of a haircut or a curtain rod) and our ideas about what is ultimately important in life (“values” such as truth, beauty, justice), is not a coincidence. There is some hidden level where both come down to the same thing.
+
+If we examine the matter from the perspective of work, the problem is much less of a mystery. We speak of *value* when labor is commoditized. On the market, the value of any good or service ultimately comes down to that proportion of the total pool of waged or salaried labor that is invested in producing it. The moment we enter the world where labor is not commoditized, suddenly we begin talking about *values*. What is the most common form of unpaid labor in our society? Surely, housework. And what is the principle way in which values are invoked by pundits and politicians? “Family values.” It’s quite the same with art, religion, politics, or social justice—or even, for that matter, those aspects of the world of work (loyalty, integrity) that do defy any calculus of profit.
+
+It’s the role of money as universal equivalent that allows for the division. That which is thus rendered comparable can be considered under the rubric of “value” and this value, like that of money, lies in its equivalence. The value of “values” in contrast lies precisely in their lack of equivalence; they are seen as unique, crystallized forms. They cannot or should not be converted into money. Nor can they be precisely compared with one another. No one will ever be able produce a mathematical formula for how much it is fitting to betray one’s political principles in the name of religion, or to neglect one’s family in the pursuit of art. True, people do make such decisions all the time. But they will always resist formalization—to even suggest doing so is at best odd, and probably offensive.[3](#hau3.2.012_fn3)
+
+The role of money leads to the second crucial point of intervention.
+
+> 2) **Marx’s *Capital* as a work of symbolic analysis.** If Marx were really an old-fashioned material determinist, one would imagine that his magnum opus would begin with a description of the development of power looms, steam engines, and techniques of agricultural production. In fact, it does nothing of the sort. It begins with a prolonged analysis of how, from certain perspectives, in the course of certain commercial transactions, the value of a certain number of yards of linen can be expressed in the form of a coat. In other words, it begins by mapping out the rudiments of a theory of symbolism.[4](#hau3.2.012_fn4) But taken as such, it’s actually quite a powerful theory of symbolism, because it goes well beyond the familiar anthropological idea of symbols as “models of and models for” social reality (Geertz [1973](#hau3.2.012_bib21)), but sees them also as representations of the importance of certain forms of action that become objects of desire that, as such, play a critical role in motivating those very forms of action that they represent.
+
+In a way, even the famous excursus on the fetishism of commodities is something of an aside; the book is really about the fetishization of money, and if we take Marx’s own word for it, was written above all to understand why it is that, in the capitalist mode of production, the value of labor comes to be expressed in the form of a wage. Money in this sense is a very particular sort of symbol. It both represents the value (importance) of our creative actions (labor) in a form in which it can be socially recognized and it also does so in a form where it can seem to be a source of the very creative power that it represents. As such, it becomes an object of desire, the pursuit of which motivates workers to actually carry out the very creative actions whose value it represents—since, after all, this is the reason one goes to work to begin with: in order to get paid.
+
+Turner’s argument is that, in the broadest sense, this happens in any system of value. Value is the way the importance of our own labors—taking labor again in the broadest sense, described above—becomes real to us by being realized (“realized” here being taken in its literal sense, as “becomes real”) in some socially recognized form, a form that is both material and symbolic. As the value versus values example makes clear, the nature of that form—the “concrete material medium of value realization” in Turner’s preferred language—makes a great deal of difference. Gold and silver used as money is enduring but it is generic and quantifiable; it thus allows liquid, comparable forms of value. A unique heirloom, a diploma, or a performance each have very different qualities. As a result, even though value is by definition always comparative, different values can be compared in different ways: proportionally, as with money (that is, allowing one to specify just how many units of one sort of value are equivalent to a certain number of units of another), through some sort of ordinal ranking system, or as unique, particular values—as with, say, a completely unique and incomparable set of heirlooms, or a unique artistic sensibility, where all one can say is whether one has it or not. But in every case, it is easy to observe the same tendency for the object—which represents and embodies the value of a certain genre of creative activity—to seem to generate the very power it embodies, because, in immediate pragmatic terms, that’s precisely what it does. Tokens of honor embody the value of honorable conduct, but one conducts oneself in an honorable way largely in order to obtain them; educational certificates represent the value of learning; one-man retrospective shows in famous galleries represent the value of an artistic career, and so on.
+
+These tokens can be more or less formalized. In our own society, the realization of unpaid domestic labor, for instance, is not especially formalized: it is imagined largely as love, or perhaps, in more concrete terms as the future ability to play with one’s grandchildren. In societies where money is largely absent, and the creation of humans is recognized to be the primary business of human life, the pursuit of attendant value forms is often quite formalized indeed. As Turner observes, what anthropologists call “kinship systems” can equally well be seen as systems of human production, almost invariably, marked by just the kind of process of the objectification of creative labor into value tokens that then make it easier for some class of people (in most cases, male elders) to more easily appropriate the honor, prestige, fame, vitality, or dignity collectively created by others.
+
+> 3) **Imaginary totalities, or society as arena for the realization of value.** One aspect of this approach that has been largely overlooked is the *critical role of imagination*. Insofar as value is social, it is always a comparison; value can only be realized in other people’s eyes. Another way to put this is that there must always be an audience. It is not just a question of being recognized as just, or honorable, or a good provider, not even a matter of being able to establish that one is more just, or more honorable, or a better provider than someone else, but also, whose assessment one takes seriously (and of course, by the same token, whose views it never even occurs to one to think about at all). For most of those involved in pursuing a particular form of value, that’s what “society” is: that audience. But there is an interesting corollary here. This also means that in the ordinary course of events, “society” exists largely in the imagination of the actors. If society takes concrete, material form, this tends to happen only during important ritual events (funerals, graduation ceremonies, marriages, games, trade summits, etc.). Yet when it is imagined, it is always as some magnificent, all-embracing totality of some sort or another, a kind of universe. What’s more, in complex societies, there are any number of such imaginary arenas for the realization of value, each making similarly totalizing claims, and the ultimate stakes of political life tend to lie precisely in negotiating how these values and arenas will ultimately relate to one another.
+
+I think we might do well to think about the political implications of this fact. It may well be one of the most important potential contributions of value theory, but it’s been largely ignored. None of the articles in this collection, for instance, even allude to them.
+
+Turner himself applies his analysis to a Kayapo village ([1995](#hau3.2.012_bib79), [2003a](#hau3.2.012_bib82), [2006](#hau3.2.012_bib84)), which is always described as a circle of domestic compounds, arranged around a central plaza with two men’s houses, divided into moieties. In everyday life, these moieties are not especially important, but they are crucial in the realization of value, since the consummate value—what Kayapo call “beauty”—is embodied most of all in great communal rituals in which sponsors from one moiety give names and present heirloom jewelry to initiates from the other side, and the community expresses its ultimate solidarity and unity. Such beautiful events are always said to transcend the petty power struggles of everyday life. In reality, however, this isn’t really true. Power struggles inevitably lead to splits and as a result, no actually existing Kayapo village has actually contained two moieties for almost a century.
+
+The obvious question is, if it isn’t really the case, why does everyone nonetheless go on insisting that a proper village must have two moieties? This is not an idle question. In a way, it is another way of restating the central theoretical question of British social anthropology of the classic age: what are we actually referring to when we speak of “social structure”? Anthropologists in the 1940s and 1950s found they had no trouble eliciting very elaborate and elegant descriptions of segmentary lineage structures, circulating connubium marriage systems, hierarchies of chiefly offices, and the like, which could then be turned into schematic models that could then be compared and contrasted in all sorts of fascinating ways, but these often seemed to have very little to do with the much messier and contentious realities of what actually went on in small-scale communities. What did these models actually represent? Were they ideals, realities, approximations, expressions of some hidden logic, or something else entirely? Eventually, Edmund Leach (1954, 1982; see also Bloch 1971) was able to make a powerful case that social structures of this kind didn’t really exist in any material sense at all; they were imaginative constructs that were only realized during ritual moments—when dividing up the carcass of a sacrificial ox, or installing a new earth priest—when “society” in this total sense is momentarily brought into being: generally, so one can manipulate or change it. Why this abstract model has to exist in the first place, however, remains ambiguous: is it to answer some need for social or conceptual order, to provide an anchor for structures of status and authority, or something more profound?
+
+All this works well enough for the Kayapo. Indeed they might be considered a classic case in point, since they are forced to somehow improvise the equivalent of two moieties in order to conduct their beautiful naming ceremonies and other important ritual events. At these moments, and these moments only, Kayapo “society” is made to appear in its total form. But Turner’s formulation also offers a much more compelling explanation of *why* it must be made to appear: in order to provide an arena for the realization of social value.
+
+The Kayapo are of course a classic, old-fashioned “village society,” where it is at least possible to think of a single community as a total social system, and therefore, a single arena—even though, as it turns out, such villages really exist only in imaginary form. Even Nancy Munn’s “intersubjective spacetime” for the realization of fame, extending beyond the island of Gawa to the entire kula chain, is a single arena. How, then, to speak about such matters when there are multiple arenas? In most of the places anthropologists study nowadays, there clearly are.
+
+This is the traditional stomping-ground of sociologists and, indeed, sociologists have had some interesting things to say here. Max Weber’s notion of status (or *stand*), for example, proposed that there are always two sorts of value competition going on. On the one hand, for any status group—and he’s thinking very broadly here; this might include Junkers, doctors, monks, or artistic Bohemians—there is an internal game, where members of a certain status group are vying over their own peculiar notion of esteem; on the other hand, there is a larger struggle within the society as a whole to establish that particular notion of esteem, and the style of life with which it is associated, as the highest or most legitimate value (Weber [1978](#hau3.2.012_bib88):205–307; Wolk n.d.).[5](#hau3.2.012_fn5) Daniel Wolk provides a vivid—and telling—example. When members of the student dueling societies of Weber’s day engaged in sword-fights over slighted male honor, they were playing a game—with its logic of insult, challenge, and duel with bladed weapons—that bears a remarkable resemblance to the knife-fights typical of gang wars in twentieth-century Chicago or Los Angeles. The internal struggle over honor took much the same form. Yet the dueling societies, whose members—often of aristocratic background—were preparing themselves for high posts in the civil service, managed to promote their sense of status honor to the very pinnacle of German society, while the honor contested by the gangs—or contemporary Crips and Bloods—is considered by the larger American society to be the very most contemptible.
+
+Granted, Weber’s focus on “status honor” betrays the ultimately aristocratic inspiration of the concept, and this does somewhat limit its usefulness for our purposes. It is actually quite useful to examine what we’ve come to call subcultures, or similar identity-based groups; rather less than the more obviously value-based universes that so multiply in contemporary societies: academia, fashion, sport, the media, the art world. Still, it’s useful (and here I’m following Wolk again) to compare his formulation with Pierre Bourdieu’s notion of social “fields” ([1976](#hau3.2.012_bib06), [1983](#hau3.2.012_bib07), [1985](#hau3.2.012_bib08); Vandenburghe [1999](#hau3.2.012_bib87)),[6](#hau3.2.012_fn6) which he developed to understand precisely such phenomena. Each can, again, be imagined as a kind of game where the players are vying to accumulate some form of “capital,” but at the same time, there is a kind of higher level game, of dominance, subordination, and autonomy, where the economic or political field will attempt to subsume the others, and fields like academia or art are forced to adopt complex strategies to maintain their own autonomy (hence, Bourdieu’s celebration of Baudelaire’s ideal of “art for art’s sake,” or his justification of his own notoriously difficult prose style as a tactic for defending the integrity of the intellectual field against incursions from the economic or political ones). What Turner would add here is that this is what politics is always ultimately about: not just to accumulate value, but to define what value is, and how different values (forms of “honor,” “capital,” etc.) dominate, encompass, or otherwise relate to one another; and thus at the same time, between those imaginary arenas in which they are realized. In the end, political struggle is and must always be about the meaning of life.[7](#hau3.2.012_fn7)
+
+> 4) **Cosmologies, games, and the anti-ontological approach**. Viewed from within, any one of these arenas seems like a total universe. They carry within them a philosophy of human existence, of what people are, what they want, about the nature of the world they inhabit. This is why we can speak of *homo ecomomicus*, *homo hierarchicus*, *homo academicus*, and so forth, of different species of human that inhabit each specific value field. One curious result is that in most societies, any one individual will find themselves constantly moving back and forth between universes. How is this possible? Here, the imaginary, virtual, “as-if” quality of the totalities in question seems crucial. They may propose a total view of the world, but it’s not particularly important if the actors believe that this view is in any ultimate sense true, valid, or correct, as long as they are committed to the achievement of certain forms of value (which, again, can only be realized in others’ eyes). That is, value systems lead to the naturalization of arbitrary ideologies but not because they convince the actors that certain things are inevitable, or written into the fundamental structure of reality, or even that they necessarily “go without saying,” but rather, because all these questions of ultimate reality are simply irrelevant.
+
+This point too deserves a little development because I think it provides a useful corrective to much of the emphasis, in contemporary social theory, to questions of “ontology.” At its sloppiest, at least, the term “ontology” is given the power to take the place once given to “culture.”[8](#hau3.2.012_fn8) This strikes me as unfortunate, because it implies that questions about the ultimate nature of reality actually matter to most people; in actual practice, what seems striking is the degree to which they do not (cf. Carrithers et al. [2010](#hau3.2.012_bib10)).
+
+Let me give an example. There was a famous psychological experiment—it’s usually called the Stanford Prison Experiment—in which researchers divided a group of undergraduate volunteers into two groups and told one to pretend to be prisoners and the other to be guards (Zimbardo [2008](#hau3.2.012_bib95)). They were to be left in a basement for two weeks, the guards given absolute power. As most readers will know (the experiment is very famous) the results were catastrophic: some prisoners conceived plans to escape, the guards soon began designing sadistic rituals and psychologically abusing those under their command. After six days, the experiment had to be called off for fear someone would be seriously hurt. The experiment is usually invoked as a demonstration of the dangers of authoritarian behavior, but one could argue that what’s really striking about it is the fact that the participants knew that the scenario was imaginary. They were perfectly well aware that they were not in fact guards or prisoners but students doing an experiment, yet it quickly turned into a kind of game (one side trying to escape and the others trying to stop them), and once it had, none of that came to matter any more.
+
+Anyone who has played a game understands how this can happen. In fact, if people care about the stakes, it almost invariably does. Yet social theorists often seem strangely oblivious to the implications. In an earlier work (Graeber [2007b](#hau3.2.012_bib29):131–36), I proposed a theory of ideology that went something along these lines, taking as my starting point the formal similarities between many theories of fairy tales and other forms of narrative (Propp [1968](#hau3.2.012_bib64); Mink [1978](#hau3.2.012_bib55); Ricoeur [1984](#hau3.2.012_bib65)) and the theoretical literature on games (Huizinga [1955](#hau3.2.012_bib49); Callois [2001](#hau3.2.012_bib09)). As Maurice Bloch ([2008](#hau3.2.012_bib04), [2012](#hau3.2.012_bib05)) has recently reminded us, imaginative play appears to be a peculiarly human phenomenon, and even in small children, is always characterized by this kind of “as-if” quality that stands apart from everyday affairs. In formal games, the “as-if” space has to be clearly bounded off from that everyday reality—delineated both in time (think of the starting whistle of a race) and space (the borders of the field). Within those time/space boundaries, there are clearly identified players, rules specifying what the players can and cannot do, and stakes, that is, the ultimate purposes of their action (this can be either competitive, beating the other time, or cooperative—trying to keep a Frisbee in the air as long as possible). Exactly these same five elements appear in most theories of narrative: there is a world demarcated, at least implicitly, in time and space (Bakhtin’s famous “chronotope” \[1981\]), characters who have certain powers of action—which might vary enormously from those of everyday humans in certain genres (they might be able to fly if this were a fairy tale or science fiction story)—and, finally, some project of action (Oedipus wishes to find his father, the prince wishes to rescue the princess) that drives the plot. My point at the time was that while Aristotle was quite right to insist that— stories being as he puts it, “imitations of action”—the plot is the real essence of the thing (and not the characters, who actually are defined by the action and not vice versa), from the point of view of the audience, it necessarily has to be the other way around because if they did not care what happened to the characters, they would have no interest in following the story to begin with.
+
+At the time, I argued that this can have a profound ideological effect, because in following the story, something happens that is quite analogous to what happens when playing a game. If one cares about the character and whether they achieve their goals, the reality of the rest of the machinery—the nature of the cosmos, the characters, the rules of the game—becomes inconsequential. If one is enjoying the bedtime story, one doesn’t care that penguins can’t really talk. This is innocuous enough. But it becomes much less innocuous when this sort of narrative form is applied to political situations (and, it was part of my argument that the more politically dominant a class of people tends to be, the more their defining modes of activity will tend to be given some kind of easily narrativizable form). Suddenly, we move from willing suspension of disbelief, to something very much like an ideological naturalization effect. If we care whether Great Britain or Spain win the contest over Gibraltar, we don’t really ask whether “Great Britain” or “Spain” actually exist; if one cares which middle-aged male lawyer prevails in some hotly contested legislative contest over budget cuts, one doesn’t question why legislators always seem to be middle-aged male lawyers, or even whether the budget actually needs to be cut. The effect is analogous to a classic, Bartheian “ideological naturalization effect,” in that arbitrary social arrangements—things that could equally well be organized completely differently—are simply taken for granted, treated as if they might as well be part of the natural order of the cosmos. But note, too, the crucial difference. No one is suggesting anyone actually does believe these things to be part of the natural order of the cosmos. The point is that if one identifies with the players in their pursuit of a certain form of value, if one is drawn into becoming part of the audience in their arena, one simply accepts the terms of the attendant universe, whatever its reality. To do otherwise would at best be vaguely obnoxious, like interrupting a game to demand a group of fans explain why their favorite footballer is not allowed to use his hands.[9](#hau3.2.012_fn9)
+
+It is value, then, that brings universes into being. Whether anyone *believes* in the reality of these universes is usually inconsequential.[10](#hau3.2.012_fn10) This, in turn, is what makes it so easy, in contexts characterized by complex and overlapping arenas of values, for so many actors to simply stroll back and forth between one universe and another without feeling any profound sense of contradiction or even unease.
+
+If this is true, the anthropological fascination with “cosmologies,” like the later fascination with “ontologies” that largely grew out of it, might seem to entirely miss the mark. But here I suspect things are actually a bit more complicated.
+
+First of all, some obvious analogies between cosmological systems, narratives, and games:
+
+| Game | Story | Cosmos |
+| --- | --- | --- |
+| *Field of play* | *Chronotope* | *Boundaries of the universe* |
+| *Players* | *Characters* | *Agents* |
+| *Rules* | *Plot* | *Powers* |
+| *Stakes* | *Goals* | *Values* |
+
+Any view of the cosmos must, first of all, be delimited in terms of space and time, its epochs and dimensions often quite elaborately plotted out (“the classic Maya recognized thirteen heavens, nine hells, and four quarters of the terrestrial world; they saw themselves as living in the fifth great cosmic cycle . . . ”). Within that universe, one must then ask, who are the actors, that is, what are the beings who play a role in cosmic affairs—not just humans, but gods, ancestors, monsters, Mistresses of the Seals, Founding Fathers, and so on—and what sort of powers do they have? Then, finally, one must consider their motivations (insofar as these can be known). What forms of value are considered worthy of pursuing, by humans and other creatures? Even the gods, after all, must want something, or why would they interest themselves in human affairs?
+
+Now, ordinarily, we assume that for those who embrace these cosmic systems, all this is the very definition of reality. But while this is clearly true in some cases, it does not necessarily have to be. Consider for example the following passage in Rane Willerslev’s intriguing essay on sacrifice in this very collection, in which he contemplates the fact that Chukchi, and other Siberian peoples who practice ritual sacrifice, will often claim ignorance, or not care, who the spirits to which they are sacrificing might be. Belief is irrelevant:
+
+The efficacy of Chukchi sacrifice does not depend on any strenuous commitment to faith, for the rite of sacrifice is somehow thought to be effective as long as the ritual rules are followed. Caroline Humphrey ([2001](#hau3.2.012_bib50): 416–17) makes a similar observation when she writes, “To take part in shamanist rituals does not require a personal commitment of belief. . . . Shamanism demands nothing . . . which must be taken into the rest of life as a personal commitment.” (Willerslev [2013](#hau3.2.012_bib93): 144)
+
+Similar things have been reported from Madagascar, particularly among its most egalitarian populations: anthropologists (myself included) have often found it a real challenge to carry out a classic “cosmological analysis” because they soon discover there is no fixed pantheon, that mediums, curers, or officiants at sacrifices will often begin improvising lists of spirits or cosmic forces more or less at whim, and that different myths will represent the universe entirely differently. We are dealing less with anything that could be called “religion” than with a kind of cosmic play. And this is considered perfectly appropriate so long as the purpose of the ritual is attained: whether that be health, fertility, prosperity, or anything else. Once again, the universe comes into being around the value.
+
+Why is it then, that some cosmologies can have this playful “as-if” quality, and others make such powerful truth-claims? It doesn’t seem to be simply a function of shamanism (Malagasy rituals are not shamanistic). I suspect, rather, the answer lies in the larger social context. Such societies tend to be broadly egalitarian, and also, tend to occur in social contexts where there would appear to be a minimal number of competing arenas for the realization of value. The more competing arenas there are, in contrast, the more likely that at least some of them will begin making much more ambitious claims, to personal commitment (faith) or to actually representing the ultimate truth or meaning of existence.
+
+What I am suggesting then is that ontological claims are not essential to cosmologies, but themselves, a kind of political move—one possible political move—that will tend to be made in the context of competing claims of value. It’s only then, when universes collide, that it occurs to anyone to cement one universe’s status by insisting that it is somehow more real than any of the others, or that it has some special purchase on the nature of reality, as in the case of science or revealed religion.
+
+We might refer to this as “the ontological gambit.”[11](#hau3.2.012_fn11)
+
+If so, then the fascination with alterity, including the value of foreign exotica, on the power and value of anything that seems to come from outside the system entirely, so magnificently documented by Marshall Sahlins (part two of this issue), might be considered a kind of variant of this same move. After all, “reality,” if it is to mean anything, must always be that which lies beyond our imaginative constructions, or at the very least, which always contains some properties that extend beyond anything we can think or say about it. That is both undeniable, yet ultimately incomprehensible. As such they allow a similar Archimedian point, and identifying oneself with such ultimate realities, a way of claiming the authority to mediate between value spheres. It may even be that, just as scientific truth-claims arose as (and to some degree still maintain themselves as) a kind of counterdiscourse to those of revealed religion, revealed religions themselves arose as a way of playing this same game.
+
+Yet even in such complex circumstances, this is just one move among many. In most arenas, such truth claims, if they are made at all, retain that imaginative, as-if quality.
+
+5) **Metavalues and infravalues**. If value systems create a potentially endless series of little worlds—“a thousand totalities”—and if the ultimate stakes of politics are negotiating how these come into relation with one another, then the obvious question is *how*? Does this not require some sort of system of *metavalues*, criteria by which to prefer some structures of value over others? In fact, there is no reason to believe an explicit system of metavalues is necessary. Such arguments can be conducted explicitly as, for instance, the case of the centuries-long conflict between Ecclesiastical and Temporal authority during the Middle Ages, or they can be carried out tacitly and pragmatically, in much the same way as any of us balance commitments to work, family, politics, religion, and so on without having an explicit code or criteria. Still, my proposal that religious, metaphysical, or scientific truth claims are themselves an “ontological gambit,” one way that those who identify themselves with a particular value arena might stake a claim for priority, suggests one way explicit criteria can be introduced. This is not even by taking one value and declaring its priority, that, in good Dumontian fashion, encompasses the rest but rather, by taking the tacit, *interior* values that inform *how* ones goes about pursuing value within certain fields (in the case of truth claims, logical consistency, verifiability, etc.) and reassembling them as an explicit value in themselves. We can refer to such tacit interior values as *infravalues*. Rather than being seen as ends in themselves, they are thought of as necessary prerequisites for, or means to, being able to pursue those forms of value that are socially realized in the kinds of arenas I have been describing. It’s easy enough to multiply examples. It’s difficult to pursue truth or beauty if one does not have reliable access to food. Food security, like basic health or physical safety, might well be considered to fall into this category; but so would sociality, cooperation, technical efficiency, and so forth. Some of these might be rewarding in themselves (there are few things more pleasant than doing a job extremely well), but they are infravalues insofar as they are not seen as ends in themselves. Sometimes they might become so. But (and this is the main reason to draw attention to the phenomenon at all) it’s even more common for infravalues themselves to become metavalues.
+
+Some excellent work on this phenomenon can be found in the essays collected here. Horacio Ortiz ([2013](#hau3.2.012_bib62)), for instance, writes compellingly about how this happens among securities analysts dealing in just the sort of financial derivatives that caused the financial meltdown of 2008. While they thought of what they did primarily as a work of producing *value* in the financial sense, it is clear that their ultimate operative value was a notion of market *efficiency* derived from economic theory, and, ultimately, a certain neoliberal orthodoxy—so much so that Ortiz argues that while traders and analysts insisted “trading is just technical” and thus beyond morality and politics, it was clear that the concept of value being employed was, precisely, economic, moral, and political all at the same time. In fact, it was effectively making claims to ultimate value on a planetary scale (Ortiz [2013](#hau3.2.012_bib62): 75). This notion of “efficiency” is a perfect example of an infravalue translated into a metavalue. In principle, efficiency is never an end in itself, but, by definition, a means of achieving something else; and free-market theorists insist that they make no judgments on what sort of values consumers ultimately wish to pursue. Yet in practice, and in ideology, through the notion of efficient markets and the enormous apparatus of regulation that operate in their name, it is raised to the status of a global criteria for how resources are distributed, and hence, in effect, what sorts of value it is possible to pursue.
+
+This switch of means into criteria between ends is the very essence of neoliberalism. But one could argue something along these lines occurs in almost any political ideology. To take one obvious example, most twentieth-century statesocialist regimes made an almost identical move when they argued that the need to guarantee universal access to basic life needs (food, shelter, health care, etc.) justified the suppression of freedom of religious, political, and cultural expression— or at least, that sharply regulated which forms were permissible. Most of us wish to secure access to basic life necessities precisely in order to pursue something else.[12](#hau3.2.012_fn12)
+
+The political maneuvering that followed in the wake of the economic crash of 2008 might serve as a perfect case study in the politics of value. Certainly, much of it makes no sense in any other terms. In Great Britain, the first political battle came in the form of a broad program to “reform” the system of higher education, which was to be reformed on market lines—in other words, to more closely resemble the logic and structures of value typical of the financiers Ortiz described. At first glance nothing could make less sense. The financial system, after all, had just undergone an epic failure. The system of higher education, for all its eccentricities, had been trundling along without a hitch. If politicians were really interested in “what works,” the obvious thing would have been to remake the financial system to be more like the educational system, rather than the other way around. But this option was not even considered. Instead, all public discussion had to begin with the premise that education was an economic good, that students pursue it only to increase their future life income, and that the only public interest in maintaining a system of higher education is to ensure an expanding total output of goods and services for consumers. As a result, when a student movement emerged, with dozens of occupations across the country, the very first demand in every case was a recognition that education was *not* an economic good but a value in itself: that wealth should be deployed to further human knowledge and understanding, rather than the other way around.
+
+From the perspective being developed here, all this makes perfect sense. Over the last twenty-five years, economists, investment bankers, derivative traders, and their allies had achieved unprecedented global power and almost unimaginable wealth, mainly by convincing the world that they had developed a scientific understanding of the creation of value. Then, in 2008, the very same people who had presented themselves as almost godlike in their powers crashed the world economy, causing untold human misery owing to their collective inability to assess the value even of their own financial instruments. Almost all the theoretical justifications for the current political culture (the idea that markets were self-regulating, that financial analysts were willing or able to make accurate predictions, and so on) lay in ruins. Clearly, the only defense in this case was a good offense, and those political forces most closely aligned with the financial system began an immediate campaign to subsume the educational system within their own structures of value *precisely because* universities were the only likely place left in contemporary society from which alternative conceptions of value might be developed and put forth.
+
+The carbon-trading schemes discussed by Steffen Dalsgaard ([2013](#hau3.2.012_bib12), in part one of this special issue) can only be understood in the same framework. What person in their right mind would, after watching the avatars of the financial sector, through a combination of fraud and willful blindness, sink their own economic system, requiring massive bailouts from the public till, decide that it would be appropriate to now put the fate of human civilization, perhaps of humanity itself, directly in their hands? This may well be remembered as the very worst idea in human history. (“Nature,” as one activist slogan went, “does not do bailouts.”) Again, it can only make sense as a reassertion of the political power of that system to define value, in this case, on a veritably cosmological level.
+
+***
+
+The attack on the universities suggests our work—our work on value theory in particular, actually—has greater potential political significance than we are accustomed to think. Or, if nothing else, that some very powerful people seem to think it does. Obviously, though, this potential will never be realized unless we develop a language in which it is possible, when confronted with what is quite possibly the worst idea in human history, to actually be able to say so. It’s not clear that the ANT-inspired approaches that have largely been deployed so far, or for that matter the theoretical apparatus assembled by Dalsgaard himself, really make it possible to do so.
+
+The problem, to adopt the terms of analysis developed above, is that we have reached a point where the successful realization of value within the academic arena itself tends to undercut any possibility of that value being considered politically relevant outside. Whatever else one might say about Weber and Bourdieu, both gave considerable thought to this dilemma. Increasingly, we are setting up theoretical terms that make it difficult to think about it at all; instead, the as-if quality of the academic arena is allowing it to drift off from even being able to imagine it *might* be relevant to anything outside itself.
+
+Let me end, then, with a word about the Dumontian revival, which seems to represent a strong theoretical current in this collection. Its most powerful statement comes in the article by Joel Robbins ([2013](#hau3.2.012_bib67)), entitled “Monism, pluralism, and the structure of value relations: A Dumontian contribution to the contemporary study of value.” One must give credit where credit is due; as a series of gambits within the academic field, Robbins’ interventions have been far more effective than my own rather ham-fisted efforts. Yet I fear adopting it would make it almost impossible to discuss the role of anthropology, or social theory in general, in these larger politics of value themselves.
+
+Much of the value theory of the 1980s and 1990s set out directly from Dumont (e.g., Turner [1984b](#hau3.2.012_bib76)), but it also built on it, pointing out some of the obvious theoretical flaws in his original formulation—as I have done myself in noting the slipperiness of Dumont’s notion of hierarchical “inclusion” (Graeber [1997](#hau3.2.012_bib22): 704–5), or his odd insistence that all binary oppositions are always, necessarily based on a logic of marked and unmarked terms (Graeber [2001](#hau3.2.012_bib23): 16–20). At the time we thought we were building something. Robbins apparently finds none of this work useful in any way, beginning his piece with a deft dismissal of the entire literature: since Dumont, he writes, no prominent anthropologist has directed “significant attention to values” at all. Lest this statement come as a surprise for anyone familiar with the work of Turner and Munn—or even, for that matter, Annette Weiner ([1985](#hau3.2.012_bib89), [1992](#hau3.2.012_bib90)), Arjun Appadurai ([1986](#hau3.2.012_bib01)), or Marilyn Strathern ([1988](#hau3.2.012_bib72a))—Robbins does provide a footnote explaining that “in making this statement, I am referring to the study of ‘values’ in the plural—roughly, those things defined as good within a society or social group. The study of ‘value’ in the singular, a notion often in one way or another tied to Marxist or at least production-oriented points of view, received some attention even during the period during which the topic of values in the plural was almost wholly neglected” ([2013](#hau3.2.012_bib67): 100, n1). In other words, he is reintroducing, in radicalized form, the very opposition that this literature was attempting to challenge.
+
+I must confess to a somewhat wistful feeling watching an intellectual tradition that played a role in my own formation brushed aside quite so casually, but even notwithstanding, it is worthy of note that Dumont himself did not really accept a fundamental division between value and values either, except, in a very broad sense, as a distinction between modern, individualistic societies where economic value reigns supreme, and traditional, hierarchical, “normal” ones. In discussing Melanesian currencies in his essay “On value” (and not, I note, “On values”), he observes:
+
+Those “primitive” moneys have to do with absolute value. Therefore their relation to money in the modern, restricted sense of the term is somehow homologous to the relation, among us, between value in the general, moral or metaphysical sense and value in the restricted economic sense. In the background of both lies the contrast between cultural forms that are essentially global and those in which the field is separated out or decomposed into particular domains or planes, that is, roughly speaking, between non-modern and modern forms. (Dumont [1986](#hau3.2.012_bib15): 258)
+
+This is a statement that actually sounds not very different from the perspective I’ve been trying to develop here.
+
+The only real difference is precisely that Dumont thinks there’s a fundamental distinction between what he considers to be (a) holistic social systems—which can exist on the scale of a Melanesian island or the entire South Asian subcontinent— where values like wealth, power, and ritual purity, and the domains of life that are organized around them, are themselves ranked into a single cosmological order, seen as continuous with nature, and (b) our own modern, individualistic society in which the overall structure has fragmented and the various domains lie casually scattered about. It’s only societies like the first, holistic variety that he himself felt could be systematically compared.
+
+Robbins himself is less interested in thinking about that distinction than with using his work to explore “the various ways monism and pluralism can relate to each other in any given society” ([2013](#hau3.2.012_bib67): 105). This seems fair enough, but of course everything rides on how a “given society” is to be defined. His own examples include (1) Hasidic Jews in Brooklyn, (2) “Priestless Old Believers in Sepych, a town of fourteen hundred people in the Russian Urals,” and (3) the Avatip and (4) Urapmin of the Sepik River region of Papua New Guinea. He offers a series of skillful and intriguing analyses of the different sorts of value that play important roles in each, the different domains of life seen as organized around them, and considers in each case the degree to which the result can or cannot be considered a unified, holistic system. I do not wish to take issue with any of the specifics of his analysis. They all seem quite sound. What I want to problematize is his use of the term “society.” What does it mean to treat members of a religious minority group living in a large city in America as the equivalent, for analytic purposes, to an ethnolinguistic group in Melanesia? Obviously, anthropologists do this all the time, in a way we have to if we’re going to engage in comparison of any kind; nonetheless, when speaking of value arenas, the results, I think, can be genuinely problematic.
+
+Doing so allows Robbins to examine how the use of three different languages (Loshn-koydesh, reserved for scripture; Yiddish, employed at home; and English, the language of practical affairs) allows for a hierarchy of value domains, all organized around freeing men for study of the Torah, to further the ultimate value of “the redemption of the Jewish people.” While the analysis works well in its own terms, such a value can only be considered paramount if the community in question is considered as a bounded entity, rather than as a group of people who are equally, from some perspectives and in some contexts, American citizens, members of the larger Jewish diaspora, and businessmen operating in local, national, and world markets. A Hasidic Jew in an airport, a police holding cell, or talking to wholesale camera dealer, is not simply engaged in “practical affairs” but in each case operating in a larger arena he or she has played little role in determining. In any of these contexts, the totality has to be conceived quite differently, and as a result, so does the overall relation of value spheres. But if this is true—and it obviously is—it becomes clear that creating an imaginary totality that can be described *as if* it were a single bounded arrangement of value domains, and in which Torah study is the pinnacle, is itself a political project, and the analysis here takes as its starting point the circle rather than the act of drawing it.
+
+***
+
+Is there a similarity between conscious projects of religious self-creation, like the Hasidim or Old Believers, and groups like the Avatip and Urapmin? It’s actually possible that there are. Perhaps Herder was more right than we think. Perhaps most of the small-scale societies that anthropologists used to study as bounded entities are better seen as themselves to some degree political projects, arenas for the realization of certain conceptions of value that can only be understood in terms of a much larger history in space and time (see e.g., Graeber forthcoming). Such a perspective might allow very different perspectives as well on questions normally discussed under rubrics like “ethnogenesis” and “resistance.” But it strikes me that in order to even begin to ask such questions, I think we have to place ourselves back in that original tradition: one that understands human beings as projects of mutual creation, value as the way such projects become meaningful to the actors, and the worlds we inhabit as emerging from those projects rather than the other way around.
+
+## References
+
+*   Arjun Appadurai. 1986. “Introduction: Commodities and the politics of value.” In The social life of things: Commodities in cultural perspective, edited by Appadurai Arjun, 3–63. Cambridge: Cambridge University Press.
+
+    [First citation in article](#1st_hau3.2.012_bib01R)
+
+    [Crossref](/servlet/linkout?suffix=hau3.2.012_bib01&dbid=16&doi=10.14318%2Fhau3.2.012&key=10.1017%2FCBO9780511819582.003)[Google Scholar](http://scholar.google.com/scholar?hl=en&q=Appadurai%2C+Arjun.+1986.+%E2%80%9CIntroduction%3A+Commodities+and+the+politics+of+value.%E2%80%9D+In+The+social+life+of+things%3A+Commodities+in+cultural+perspective%2C+edited+by+Arjun+Appadurai%2C+3%E2%80%9363.+Cambridge%3A+Cambridge+University+Press.)
+
+*   Mikhail Bakhtin. 1981. The dialogic imagination: Four essays by M. M. Bakhtin. Austin: University of Texas Press.
+
+    [First citation in article](#1st_hau3.2.012_bib02R)
+
+    [Google Scholar](http://scholar.google.com/scholar?hl=en&q=Bakhtin%2C+Mikhail.+1981.+The+dialogic+imagination%3A+Four+essays+by+M.+M.+Bakhtin.+Austin%3A+University+of+Texas+Press.)
+
+*   Maurice Bloch. 1971. Placing the dead: Tombs, ancestral villages, and kinship organization in Madagascar. London: Seminar Press.
+
+    [First citation in article](#1st_hau3.2.012_bib03R)
+
+    [Google Scholar](http://scholar.google.com/scholar?hl=en&q=Bloch%2C+Maurice.+1971.+Placing+the+dead%3A+Tombs%2C+ancestral+villages%2C+and+kinship+organization+in+Madagascar.+London%3A+Seminar+Press.)
+
+*   Maurice Bloch. 2008. “Why religion is nothing special but is central.” Philosophical Transactions of the Royal Society B 363: 2055–61.
+
+    [First citation in article](#1st_hau3.2.012_bib04R)
+
+    [Crossref](/servlet/linkout?suffix=hau3.2.012_bib04&dbid=16&doi=10.14318%2Fhau3.2.012&key=10.1098%2Frstb.2008.0007)[Google Scholar](http://scholar.google.com/scholar?hl=en&q=Bloch%2C+Maurice.+2008.+%E2%80%9CWhy+religion+is+nothing+special+but+is+central.%E2%80%9D+Philosophical+Transactions+of+the+Royal+Society+B+363%3A+2055%E2%80%9361.)
+
+*   Maurice Bloch. 2012. Anthropology and the cognitive challenge. Cambridge: Cambridge University Press.
+
+    [First citation in article](#1st_hau3.2.012_bib05R)
+
+    [Crossref](/servlet/linkout?suffix=hau3.2.012_bib05&dbid=16&doi=10.14318%2Fhau3.2.012&key=10.1017%2FCBO9781139020008)[Google Scholar](http://scholar.google.com/scholar?hl=en&q=Bloch%2C+Maurice.+2012.+Anthropology+and+the+cognitive+challenge.+Cambridge%3A+Cambridge+University+Press.)
+
+*   Pierre Bourdieu. 1976. “Le champ scientifique.” Actes de la recherche en sciences sociales 2–3: 88–104.
+
+    [First citation in article](#1st_hau3.2.012_bib06R)
+
+    [Google Scholar](http://scholar.google.com/scholar?hl=en&q=Bourdieu%2C+Pierre.+1976.+%E2%80%9CLe+champ+scientifique.%E2%80%9D+Actes+de+la+recherche+en+sciences+sociales+2%E2%80%933%3A+88%E2%80%93104.)
+
+*   Pierre Bourdieu. 1983. “The field of cultural production, or: The economic world reversed.” Poetics 12: 311–56.
+
+    [First citation in article](#1st_hau3.2.012_bib07R)
+
+    [Crossref](/servlet/linkout?suffix=hau3.2.012_bib07&dbid=16&doi=10.14318%2Fhau3.2.012&key=10.1016%2F0304-422X%2883%2990012-8)[Google Scholar](http://scholar.google.com/scholar?hl=en&q=Bourdieu%2C+Pierre.+1983.+%E2%80%9CThe+field+of+cultural+production%2C+or%3A+The+economic+world+reversed.%E2%80%9D+Poetics+12%3A+311%E2%80%9356.)
+
+*   Pierre Bourdieu. 1985. “The genesis of the concepts of habitus and of field.” Sociocriticism 2 (2): 11–24.
+
+    [First citation in article](#1st_hau3.2.012_bib08R)
+
+    [Google Scholar](http://scholar.google.com/scholar?hl=en&q=Bourdieu%2C+Pierre.+1985.+%E2%80%9CThe+genesis+of+the+concepts+of+habitus+and+of+field.%E2%80%9D+Sociocriticism+2+%282%29%3A+11%E2%80%9324.)
+
+*   Roger Callois. 2001. Man, play and games. Urbana: University of Illinois Press.
+
+    [First citation in article](#1st_hau3.2.012_bib09R)
+
+    [Google Scholar](http://scholar.google.com/scholar?hl=en&q=Callois%2C+Roger.+2001.+Man%2C+play+and+games.+Urbana%3A+University+of+Illinois+Press.)
+
+*   Michael Carrithers, Matei Candea, Karen Sykes, Martin Holbraad, Soumhya Venkatsen. 2010. “Ontology is just another word for culture: Motion tabled at the 2008 meeting of the Group for Debates in Anthropological Theory, University of Manchester.” Critique of Anthropology 30 (2): 152–200.
+
+    [First citation in article](#1st_hau3.2.012_bib10R)
+
+    [Crossref](/servlet/linkout?suffix=hau3.2.012_bib10&dbid=16&doi=10.14318%2Fhau3.2.012&key=10.1177%2F0308275X09364070)[Google Scholar](http://scholar.google.com/scholar?hl=en&q=Carrithers%2C+Michael%2C+Matei+Candea%2C+Karen+Sykes%2C+Martin+Holbraad%2C+and+Soumhya+Venkatsen.+2010.+%E2%80%9COntology+is+just+another+word+for+culture%3A+Motion+tabled+at+the+2008+meeting+of+the+Group+for+Debates+in+Anthropological+Theory%2C+University+of+Manchester.%E2%80%9D+Critique+of+Anthropology+30+%282%29%3A+152%E2%80%93200.)
+
+*   Michael Cepek. 2008. “Bold jaguars and unsuspecting monkeys: The value of fearlessness in Cofán politics.” Journal of the Royal Anthropological Institute (N.S.) 1: 334–52.
+
+    [First citation in article](#1st_hau3.2.012_bib11R)
+
+    [Crossref](/servlet/linkout?suffix=hau3.2.012_bib11&dbid=16&doi=10.14318%2Fhau3.2.012&key=10.1111%2Fj.1467-9655.2008.00505.x)[Google Scholar](http://scholar.google.com/scholar?hl=en&q=Cepek%2C+Michael.+2008.+%E2%80%9CBold+jaguars+and+unsuspecting+monkeys%3A+The+value+of+fearlessness+in+Cof%C3%A1n+politics.%E2%80%9D+Journal+of+the+Royal+Anthropological+Institute+%28N.S.%29+1%3A+334%E2%80%9352.)
+
+*   Steffen Dalsgaard. 2013. “The commensurability of carbon: Making value and money of climate change.” HAU: Journal of Ethnographic Theory 3 (1): 80–98.
+
+    [First citation in article](#1st_hau3.2.012_bib12R)
+
+    [Link](/doi/10.14318/hau3.1.006)[Google Scholar](http://scholar.google.com/scholar?hl=en&q=Dalsgaard%2C+Steffen.+2013.+%E2%80%9CThe+commensurability+of+carbon%3A+Making+value+and+money+of+climate+change.%E2%80%9D+HAU%3A+Journal+of+Ethnographic+Theory+3+%281%29%3A+80%E2%80%9398.)
+
+*   Massimo De Angelis. 2007. The beginning of history: Value struggles and global capitalism. London: Pluto Press.
+
+    [First citation in article](#1st_hau3.2.012_bib13R)
+
+    [Google Scholar](http://scholar.google.com/scholar?hl=en&q=De+Angelis%2C+Massimo.+2007.+The+beginning+of+history%3A+Value+struggles+and+global+capitalism.+London%3A+Pluto+Press.)
+
+*   Louis Dumont. 1970. Homo hierarchicus. Chicago: University of Chicago Press.
+
+    [First citation in article](#1st_hau3.2.012_bib14R)
+
+    [Google Scholar](http://scholar.google.com/scholar?hl=en&q=Dumont%2C+Louis.+1970.+Homo+hierarchicus.+Chicago%3A+University+of+Chicago+Press.)
+
+*   Louis Dumont. 1986. Essays on individualism: Modern ideology in anthropological perspective. Chicago: University of Chicago Press.
+
+    [First citation in article](#1st_hau3.2.012_bib15R)
+
+    [Google Scholar](http://scholar.google.com/scholar?hl=en&q=Dumont%2C+Louis.+1986.+Essays+on+individualism%3A+Modern+ideology+in+anthropological+perspective.+Chicago%3A+University+of+Chicago+Press.)
+
+*   Paul Eiss. 2002. “Hunting for the virgin: Meat, money and memory in Tetiz, Yucatán.” Cultural Anthropology 17 (3): 291–330.
+
+    [First citation in article](#1st_hau3.2.012_bib16R)
+
+    [Crossref](/servlet/linkout?suffix=hau3.2.012_bib16&dbid=16&doi=10.14318%2Fhau3.2.012&key=10.1525%2Fcan.2002.17.3.291)[Google Scholar](http://scholar.google.com/scholar?hl=en&q=Eiss%2C+Paul.+2002.+%E2%80%9CHunting+for+the+virgin%3A+Meat%2C+money+and+memory+in+Tetiz%2C+Yucat%C3%A1n.%E2%80%9D+Cultural+Anthropology+17+%283%29%3A+291%E2%80%93330.)
+
+*   Paul Eiss, David Pedersen. 2002. “Introduction: Values of value.” Cultural Anthropology 17 (3): 283–90.
+
+    [First citation in article](#1st_hau3.2.012_bib17R)
+
+    [Crossref](/servlet/linkout?suffix=hau3.2.012_bib17&dbid=16&doi=10.14318%2Fhau3.2.012&key=10.1525%2Fcan.2002.17.3.283)[Google Scholar](http://scholar.google.com/scholar?hl=en&q=Eiss%2C+Paul%2C+and+David+Pedersen.+2002.+%E2%80%9CIntroduction%3A+Values+of+value.%E2%80%9D+Cultural+Anthropology+17+%283%29%3A+283%E2%80%9390.)
+
+*   Diane Elson. 1979. Value: The representation of labour in capitalism. London: CSE Books.
+
+    [First citation in article](#1st_hau3.2.012_bib18R)
+
+    [Google Scholar](http://scholar.google.com/scholar?hl=en&q=Elson%2C+Diane.+1979.+Value%3A+The+representation+of+labour+in+capitalism.+London%3A+CSE+Books.)
+
+*   Jane Fajans. 1993. “Exchanging products: Producing exchange.” In Exchanging Products: Producing exchange, edited by Fajans Jane, 1–14. Sydney: Oceania Monographs, University of Sydney.
+
+    [First citation in article](#1st_hau3.2.012_bib19R)
+
+    [Google Scholar](http://scholar.google.com/scholar?hl=en&q=Fajans%2C+Jane.+1993.+%E2%80%9CExchanging+products%3A+Producing+exchange.%E2%80%9D+In+Exchanging+Products%3A+Producing+exchange%2C+edited+by+Jane+Fajans%2C+1%E2%80%9314.+Sydney%3A+Oceania+Monographs%2C+University+of+Sydney.)
+
+*   Jane Fajans. 1997. They make themselves: Work and play among the Baining of Papua New Guinea. Chicago: University of Chicago Press.
+
+    [First citation in article](#1st_hau3.2.012_bib20R)
+
+    [Google Scholar](http://scholar.google.com/scholar?hl=en&q=Fajans%2C+Jane.+1997.+They+make+themselves%3A+Work+and+play+among+the+Baining+of+Papua+New+Guinea.+Chicago%3A+University+of+Chicago+Press.)
+
+*   Clifford Geertz. 1973. “Religion As a Cultural System.” In The interpretation of cultures, 87–125. New York: Basic Books.
+
+    [First citation in article](#1st_hau3.2.012_bib21R)
+
+    [Google Scholar](http://scholar.google.com/scholar?hl=en&q=Geertz%2C+Clifford.+1973.+%E2%80%9CReligion+As+a+Cultural+System.%E2%80%9D+In+The+interpretation+of+cultures%2C+87%E2%80%93125.+New+York%3A+Basic+Books.)
+
+*   David Graeber. 1997. “Manners, deference and private property in early modern Europe.” Comparative Studies in Society and History 39 (4): 694–728.
+
+    [First citation in article](#1st_hau3.2.012_bib22R)
+
+    [Crossref](/servlet/linkout?suffix=hau3.2.012_bib22&dbid=16&doi=10.14318%2Fhau3.2.012&key=10.1017%2FS0010417500020867)[Google Scholar](http://scholar.google.com/scholar?hl=en&q=Graeber%2C+David.+1997.+%E2%80%9CManners%2C+deference+and+private+property+in+early+modern+Europe.%E2%80%9D+Comparative+Studies+in+Society+and+History+39+%284%29%3A+694%E2%80%93728.)
+
+*   David Graeber. 2001. Toward an anthropological theory of value: The false coin of our own dreams. New York: Palgrave-Macmillan.
+
+    [First citation in article](#1st_hau3.2.012_bib23R)
+
+    [Crossref](/servlet/linkout?suffix=hau3.2.012_bib23&dbid=16&doi=10.14318%2Fhau3.2.012&key=10.1057%2F9780312299064)[Google Scholar](http://scholar.google.com/scholar?hl=en&q=Graeber%2C+David.+2001.+Toward+an+anthropological+theory+of+value%3A+The+false+coin+of+our+own+dreams.+New+York%3A+Palgrave-Macmillan.)
+
+*   David Graeber. 2005a. “Introduction: The political metaphysics of stupidity.” The Commoner, Spring 2005. [www.thecommoner.org.uk](http://www.thecommoner.org.uk).
+
+    [First citation in article](#1st_hau3.2.012_bib24R)
+
+    [Google Scholar](http://scholar.google.com/scholar?hl=en&q=Graeber%2C+David.+2005a.+%E2%80%9CIntroduction%3A+The+political+metaphysics+of+stupidity.%E2%80%9D+The+Commoner%2C+Spring+2005.+.)
+
+*   David Graeber. 2005b. “Fetishism as social creativity, or fetishes are gods in process of construction.” Anthropological Theory 5 (4): 407–38.
+
+    [First citation in article](#1st_hau3.2.012_bib25R)
+
+    [Crossref](/servlet/linkout?suffix=hau3.2.012_bib25&dbid=16&doi=10.14318%2Fhau3.2.012&key=10.1177%2F1463499605059230)[Google Scholar](http://scholar.google.com/scholar?hl=en&q=Graeber%2C+David.+2005b.+%E2%80%9CFetishism+as+social+creativity%2C+or+fetishes+are+gods+in+process+of+construction.%E2%80%9D+Anthropological+Theory+5+%284%29%3A+407%E2%80%9338.)
+
+*   David Graeber. 2005c. “Value: Anthropological theories of value.” In Handbook of economic anthropology, edited by Carrier James, 439–54. Aldershot, UK: Edward Elgar. Carrier James, 439–54. Aldershot, UK: Edward Elgar.
+
+    [First citation in article](#1st_hau3.2.012_bib26R)
+
+    [Crossref](/servlet/linkout?suffix=hau3.2.012_bib26&dbid=16&doi=10.14318%2Fhau3.2.012&key=10.4337%2F9781845423469.00043)[Google Scholar](http://scholar.google.com/scholar?hl=en&q=Graeber%2C+David.+2005c.+%E2%80%9CValue%3A+Anthropological+theories+of+value.%E2%80%9D+In+Handbook+of+economic+anthropology%2C+edited+by+James+Carrier%2C+439%E2%80%9354.+Aldershot%2C+UK%3A+Edward+Elgar.+James+Carrier%2C+439%E2%80%9354.+Aldershot%2C+UK%3A+Edward+Elgar.)
+
+*   David Graeber 2006. “Turning modes of production inside out: Or, why capitalism is a transformation of slavery (short version).” Critique of Anthropology 26 (1): 61–81.
+
+    [First citation in article](#1st_hau3.2.012_bib27R)
+
+    [Crossref](/servlet/linkout?suffix=hau3.2.012_bib27&dbid=16&doi=10.14318%2Fhau3.2.012&key=10.1177%2F0308275X06061484)[Google Scholar](http://scholar.google.com/scholar?hl=en&q=Graeber%2C+David+2006.+%E2%80%9CTurning+modes+of+production+inside+out%3A+Or%2C+why+capitalism+is+a+transformation+of+slavery+%28short+version%29.%E2%80%9D+Critique+of+Anthropology+26+%281%29%3A+61%E2%80%9381.)
+
+*   David Graeber. 2007a. “An army of altruists: On the alienated right to do good.” Harper’s Magazine, January 2007, 31–38.
+
+    [First citation in article](#1st_hau3.2.012_bib28R)
+
+    [Google Scholar](http://scholar.google.com/scholar?hl=en&q=Graeber%2C+David.+2007a.+%E2%80%9CAn+army+of+altruists%3A+On+the+alienated+right+to+do+good.%E2%80%9D+Harper%E2%80%99s+Magazine%2C+January+2007%2C+31%E2%80%9338.)
+
+*   David Graeber. 2007b. Lost people: Magic and the legacy of slavery in Madagascar. Bloomington: Indiana University Press.
+
+    [First citation in article](#1st_hau3.2.012_bib29R)
+
+    [Google Scholar](http://scholar.google.com/scholar?hl=en&q=Graeber%2C+David.+2007b.+Lost+people%3A+Magic+and+the+legacy+of+slavery+in+Madagascar.+Bloomington%3A+Indiana+University+Press.)
+
+*   David Graeber. 2011. “Value, politics, and democracy in the United States.” Current Sociology 59 (2): 186–199.
+
+    [First citation in article](#1st_hau3.2.012_bib30R)
+
+    [Crossref](/servlet/linkout?suffix=hau3.2.012_bib30&dbid=16&doi=10.14318%2Fhau3.2.012&key=10.1177%2F0011392110391151)[Google Scholar](http://scholar.google.com/scholar?hl=en&q=Graeber%2C+David.+2011.+%E2%80%9CValue%2C+politics%2C+and+democracy+in+the+United+States.%E2%80%9D+Current+Sociology+59+%282%29%3A+186%E2%80%93199.)
+
+*   David Graeber forthcoming. “Culture as creative refusal.” Cambridge Anthropology.
+
+    [First citation in article](#1st_hau3.2.012_bib31R)
+
+    [Google Scholar](http://scholar.google.com/scholar?hl=en&q=Graeber%2C+David+forthcoming.+%E2%80%9CCulture+as+creative+refusal.%E2%80%9D+Cambridge+Anthropology.)
+
+*   Michael Hardt, Antonio Negri. 2000. Empire. Cambridge: Harvard University Press.
+
+    [First citation in article](#1st_hau3.2.012_bib32R)
+
+    [Google Scholar](http://scholar.google.com/scholar?hl=en&q=Hardt%2C+Michael%2C+and+Antonio+Negri.+2000.+Empire.+Cambridge%3A+Harvard+University+Press.)
+
+*   Georg Wilhelm Friedrich Hegel. 1977. Phenomenology of spirit. Translated by V. Miller Arnold. Oxford: Clarendon Press.
+
+    [First citation in article](#1st_hau3.2.012_bib33R)
+
+    [Google Scholar](http://scholar.google.com/scholar?hl=en&q=Hegel%2C+Georg+Wilhelm+Friedrich.+1977.+Phenomenology+of+spirit.+Translated+by+Arnold+V.+Miller.+Oxford%3A+Clarendon+Press.)
+
+*   Johan Gottfried von Herder. (1772) 2002. “Treatise on the origins of language.” In Herder: Philosophical writings, edited by N. Forster Michael, 65–166. Cambridge, Cambridge University Press.
+
+    [First citation in article](#1st_hau3.2.012_bib34R)
+
+    [Google Scholar](http://scholar.google.com/scholar?hl=en&q=Herder%2C+Johan+Gottfried+von.+%281772%29+2002.+%E2%80%9CTreatise+on+the+origins+of+language.%E2%80%9D+In+Herder%3A+Philosophical+writings%2C+edited+by+Michael+N.+Forster%2C+65%E2%80%93166.+Cambridge%2C+Cambridge+University+Press.)
+
+*   Johan Gottfried von Herder. (1774) 2004. “Another philosophy of history for the education of mankind.” In Another philosophy of history and selected political writings, edited by D. Evrigenis Ioannis, Pellerin Daniel, 3–98. Indianapolis, IN: Hackett Publishing.
+
+    [First citation in article](#1st_hau3.2.012_bib35R)
+
+    [Google Scholar](http://scholar.google.com/scholar?hl=en&q=Herder%2C+Johan+Gottfried+von.+%281774%29+2004.+%E2%80%9CAnother+philosophy+of+history+for+the+education+of+mankind.%E2%80%9D+In+Another+philosophy+of+history+and+selected+political+writings%2C+edited+by+Ioannis+D.+Evrigenis+and+Daniel+Pellerin%2C+3%E2%80%9398.+Indianapolis%2C+IN%3A+Hackett+Publishing.)
+
+*   David Holmberg. 2000. “Derision, exorcism, and the ritual production of power.”American Ethnologist 27 (4): 927–49.
+
+    [First citation in article](#1st_hau3.2.012_bib48R)
+
+    [Crossref](/servlet/linkout?suffix=hau3.2.012_bib48&dbid=16&doi=10.14318%2Fhau3.2.012&key=10.1525%2Fae.2000.27.4.927)[Google Scholar](http://scholar.google.com/scholar?hl=en&q=Holmberg%2C+David.+2000.+%E2%80%9CDerision%2C+exorcism%2C+and+the+ritual+production+of+power.%E2%80%9DAmerican+Ethnologist+27+%284%29%3A+927%E2%80%9349.)
+
+*   Johan Huizinga. 1955. Homo ludens: The play element in culture. Boston: Beacon Press.
+
+    [First citation in article](#1st_hau3.2.012_bib49R)
+
+    [Google Scholar](http://scholar.google.com/scholar?hl=en&q=Huizinga%2C+Johan.+1955.+Homo+ludens%3A+The+play+element+in+culture.+Boston%3A+Beacon+Press.)
+
+*   Caroline Humphrey. 2001. Marx went away but Karl stayed behind. Ann Arbor: University of Michigan Press.
+
+    [First citation in article](#1st_hau3.2.012_bib50R)
+
+    [Google Scholar](http://scholar.google.com/scholar?hl=en&q=Humphrey%2C+Caroline.+2001.+Marx+went+away+but+Karl+stayed+behind.+Ann+Arbor%3A+University+of+Michigan+Press.)
+
+*   Edmund Ronald Leach. 1954. Political systems of highland Burma: A study of Kachin social structure. Cambridge, MA: Harvard University Press.
+
+    [First citation in article](#1st_hau3.2.012_bib51R)
+
+    [Google Scholar](http://scholar.google.com/scholar?hl=en&q=Leach%2C+Edmund+Ronald.+1954.+Political+systems+of+highland+Burma%3A+A+study+of+Kachin+social+structure.+Cambridge%2C+MA%3A+Harvard+University+Press.)
+
+*   Edmund Ronald Leach. 1982. Social anthropology. Oxford: Oxford University Press.
+
+    [First citation in article](#1st_hau3.2.012_bib52R)
+
+    [Google Scholar](http://scholar.google.com/scholar?hl=en&q=Leach%2C+Edmund+Ronald.+1982.+Social+anthropology.+Oxford%3A+Oxford+University+Press.)
+
+*   Karl Marx. (1858) 1964. Pre-capitalist economic formations, translated by Jack Cohen. New York: International Publishers.
+
+    [First citation in article](#1st_hau3.2.012_bib53R)
+
+    [Google Scholar](http://scholar.google.com/scholar?hl=en&q=Marx%2C+Karl.+%281858%29+1964.+Pre-capitalist+economic+formations%2C+translated+by+Jack+Cohen.+New+York%3A+International+Publishers.)
+
+*   Karl Marx. (1867) 1977. Capital: Volume I, translated by Fowkes Ben. London: Penguin Books.
+
+    [First citation in article](#1st_hau3.2.012_bib54R)
+
+    [Google Scholar](http://scholar.google.com/scholar?hl=en&q=Marx%2C+Karl.+%281867%29+1977.+Capital%3A+Volume+I%2C+translated+by+Ben+Fowkes.+London%3A+Penguin+Books.)
+
+*   Louis Mink. 1978. “Narrative form as a cognitive instrument.” In The writing of history: Literary form and historical understanding, edited by Canary Robert, Kozicki Henry, 129–49. Madison: University of Wisconsin Press.
+
+    [First citation in article](#1st_hau3.2.012_bib55R)
+
+    [Google Scholar](http://scholar.google.com/scholar?hl=en&q=Mink%2C+Louis.+1978.+%E2%80%9CNarrative+form+as+a+cognitive+instrument.%E2%80%9D+In+The+writing+of+history%3A+Literary+form+and+historical+understanding%2C+edited+by+Robert+Canary+and+Henry+Kozicki%2C+129%E2%80%9349.+Madison%3A+University+of+Wisconsin+Press.)
+
+*   Nancy D. Munn 1977. “The spatiotemporal transformations of gawan canoes.” Journal de la Société des Océanistes. Tome 33 (mars-juin), 54–55: 39–53.
+
+    [First citation in article](#1st_hau3.2.012_bib56R)
+
+    [Google Scholar](http://scholar.google.com/scholar?hl=en&q=Munn%2C+Nancy+D.+1977.+%E2%80%9CThe+spatiotemporal+transformations+of+gawan+canoes.%E2%80%9D+Journal+de+la+Soci%C3%A9t%C3%A9+des+Oc%C3%A9anistes.+Tome+33+%28mars-juin%29%2C+54%E2%80%9355%3A+39%E2%80%9353.)
+
+*   Nancy D. Munn 1983. “Gawan kula: Spatiotemporal control and the symbolism of influence.” In The kula: New perspectives on Massim exchange, edited by W. Leach Jerry, R. Leach Edmund, 277–308. Cambridge: Cambridge University Press.
+
+    [First citation in article](#1st_hau3.2.012_bib57R)
+
+    [Google Scholar](http://scholar.google.com/scholar?hl=en&q=Munn%2C+Nancy+D.+1983.+%E2%80%9CGawan+kula%3A+Spatiotemporal+control+and+the+symbolism+of+influence.%E2%80%9D+In+The+kula%3A+New+perspectives+on+Massim+exchange%2C+edited+by+Jerry+W.+Leach+and+Edmund+R.+Leach%2C+277%E2%80%93308.+Cambridge%3A+Cambridge+University+Press.)
+
+*   Nancy D. Munn 1986. The fame of Gawa: A symbolic study of value transformation in a Massim (Papua New Guinea) society. Cambridge: Cambridge University Press.
+
+    [First citation in article](#1st_hau3.2.012_bib58R)
+
+    [Google Scholar](http://scholar.google.com/scholar?hl=en&q=Munn%2C+Nancy+D.+1986.+The+fame+of+Gawa%3A+A+symbolic+study+of+value+transformation+in+a+Massim+%28Papua+New+Guinea%29+society.+Cambridge%3A+Cambridge+University+Press.)
+
+*   Fred Myers. 1986. Pintupi country, Pintupi self: Sentiment, place, and politics among Western Desert Aborigines. Washington: Smithsonian Institution Press.
+
+    [First citation in article](#1st_hau3.2.012_bib59R)
+
+    [Google Scholar](http://scholar.google.com/scholar?hl=en&q=Myers%2C+Fred.+1986.+Pintupi+country%2C+Pintupi+self%3A+Sentiment%2C+place%2C+and+politics+among+Western+Desert+Aborigines.+Washington%3A+Smithsonian+Institution+Press.)
+
+*   Fred Myers. 1993. “Place, identity, and exchange in a totemic system: Nurturance and the process of social reproduction in Pintupi society.” In Exchanging products: Producing exchange, edited by Fajans Jane, 33–58. Sydney: Oceania Monographs, University of Sydney.
+
+    [First citation in article](#1st_hau3.2.012_bib60R)
+
+    [Google Scholar](http://scholar.google.com/scholar?hl=en&q=Myers%2C+Fred.+1993.+%E2%80%9CPlace%2C+identity%2C+and+exchange+in+a+totemic+system%3A+Nurturance+and+the+process+of+social+reproduction+in+Pintupi+society.%E2%80%9D+In+Exchanging+products%3A+Producing+exchange%2C+edited+by+Jane+Fajans%2C+33%E2%80%9358.+Sydney%3A+Oceania+Monographs%2C+University+of+Sydney.)
+
+*   Fred Myers. 2001. The empire of things: Regimes of value and material culture. Santa Fe, NM: School of American Research.
+
+    [First citation in article](#1st_hau3.2.012_bib61R)
+
+    [Google Scholar](http://scholar.google.com/scholar?hl=en&q=Myers%2C+Fred.+2001.+The+empire+of+things%3A+Regimes+of+value+and+material+culture.+Santa+Fe%2C+NM%3A+School+of+American+Research.)
+
+*   Horacio Ortiz. 2013. “Financial value: Economic, moral, political, global.” HAU: Journal of Ethnographic Theory 3 (1): 64–79.
+
+    [First citation in article](#1st_hau3.2.012_bib62R)
+
+    [Link](/doi/10.14318/hau3.1.005)[Google Scholar](http://scholar.google.com/scholar?hl=en&q=Ortiz%2C+Horacio.+2013.+%E2%80%9CFinancial+value%3A+Economic%2C+moral%2C+political%2C+global.%E2%80%9D+HAU%3A+Journal+of+Ethnographic+Theory+3+%281%29%3A+64%E2%80%9379.)
+
+*   David Pedersen. 2008. “Introduction: Toward a value theory of anthropology.” Anthropological Theory 8 (1): 5–8.
+
+    [First citation in article](#1st_hau3.2.012_bib63R)
+
+    [Crossref](/servlet/linkout?suffix=hau3.2.012_bib63&dbid=16&doi=10.14318%2Fhau3.2.012&key=10.1177%2F1463499607087491)[Google Scholar](http://scholar.google.com/scholar?hl=en&q=Pedersen%2C+David.+2008.+%E2%80%9CIntroduction%3A+Toward+a+value+theory+of+anthropology.%E2%80%9D+Anthropological+Theory+8+%281%29%3A+5%E2%80%938.)
+
+*   Vladimir Propp. 1968. Morphology of the folktale. Baltimore, MD: Port City Press.
+
+    [First citation in article](#1st_hau3.2.012_bib64R)
+
+    [Google Scholar](http://scholar.google.com/scholar?hl=en&q=Propp%2C+Vladimir.+1968.+Morphology+of+the+folktale.+Baltimore%2C+MD%3A+Port+City+Press.)
+
+*   Paul Ricoeur. 1984. Time and narrative. Translated by Kathleen McLaughlin and David Pellauer. Chicago: University of Chicago Press.
+
+    [First citation in article](#1st_hau3.2.012_bib65R)
+
+    [Google Scholar](http://scholar.google.com/scholar?hl=en&q=Ricoeur%2C+Paul.+1984.+Time+and+narrative.+Translated+by+Kathleen+McLaughlin+and+David+Pellauer.+Chicago%3A+University+of+Chicago+Press.)
+
+*   Joel Robbins. 1994. “Equality as a value: Ideology in Dumont, Melanesia, and the West.” Social Analysis 36: 21–70.
+
+    [First citation in article](#1st_hau3.2.012_bib66R)
+
+    [Google Scholar](http://scholar.google.com/scholar?hl=en&q=Robbins%2C+Joel.+1994.+%E2%80%9CEquality+as+a+value%3A+Ideology+in+Dumont%2C+Melanesia%2C+and+the+West.%E2%80%9D+Social+Analysis+36%3A+21%E2%80%9370.)
+
+*   Joel Robbins. 2013. “Monism, pluralism, and the structure of value relations: A Dumontian contribution to the contemporary study of value.” HAU: Journal of Ethnographic Theory 3 (1): 99–115.
+
+    [First citation in article](#1st_hau3.2.012_bib67R)
+
+    [Link](/doi/10.14318/hau3.1.008)[Google Scholar](http://scholar.google.com/scholar?hl=en&q=Robbins%2C+Joel.+2013.+%E2%80%9CMonism%2C+pluralism%2C+and+the+structure+of+value+relations%3A+A+Dumontian+contribution+to+the+contemporary+study+of+value.%E2%80%9D+HAU%3A+Journal+of+Ethnographic+Theory+3+%281%29%3A+99%E2%80%93115.)
+
+*   P. Steven Sangren. 1987a. “Orthodoxy, heterodoxy, and the structure of value in Chinese rituals.” Modern China 13 (1): 63–89.
+
+    [First citation in article](#1st_hau3.2.012_bib68R)
+
+    [Crossref](/servlet/linkout?suffix=hau3.2.012_bib68&dbid=16&doi=10.14318%2Fhau3.2.012&key=10.1177%2F009770048701300104)[Google Scholar](http://scholar.google.com/scholar?hl=en&q=Sangren%2C+P.+Steven.+1987a.+%E2%80%9COrthodoxy%2C+heterodoxy%2C+and+the+structure+of+value+in+Chinese+rituals.%E2%80%9D+Modern+China+13+%281%29%3A+63%E2%80%9389.)
+
+*   P. Steven Sangren. 1987b. History and magical power in a Chinese community. Stanford, CA: Stanford University Press.
+
+    [First citation in article](#1st_hau3.2.012_bib69R)
+
+    [Google Scholar](http://scholar.google.com/scholar?hl=en&q=Sangren%2C+P.+Steven.+1987b.+History+and+magical+power+in+a+Chinese+community.+Stanford%2C+CA%3A+Stanford+University+Press.)
+
+*   P. Steven Sangren. 2000. Chinese sociologics: An anthropological approach to the study of alienation in social reproduction. London: Athlone Press.
+
+    [First citation in article](#1st_hau3.2.012_bib70R)
+
+    [Google Scholar](http://scholar.google.com/scholar?hl=en&q=Sangren%2C+P.+Steven.+2000.+Chinese+sociologics%3A+An+anthropological+approach+to+the+study+of+alienation+in+social+reproduction.+London%3A+Athlone+Press.)
+
+*   Raymond T. Smith 1995. The matrifocal family: Power, pluralism, and politics. London: Routledge.
+
+    [First citation in article](#1st_hau3.2.012_bib71R)
+
+    [Google Scholar](http://scholar.google.com/scholar?hl=en&q=Smith%2C+Raymond+T.+1995.+The+matrifocal+family%3A+Power%2C+pluralism%2C+and+politics.+London%3A+Routledge.)
+
+*   Claudia Strauss. 2006. “The imaginary.” Anthropological Theory 6 (3): 322–44.
+
+    [First citation in article](#1st_hau3.2.012_bib72R)
+
+    [Crossref](/servlet/linkout?suffix=hau3.2.012_bib72&dbid=16&doi=10.14318%2Fhau3.2.012&key=10.1177%2F1463499606066891)[Google Scholar](http://scholar.google.com/scholar?hl=en&q=Strauss%2C+Claudia.+2006.+%E2%80%9CThe+imaginary.%E2%80%9D+Anthropological+Theory+6+%283%29%3A+322%E2%80%9344.)
+
+*   Marilyn Strathern. 1988. The gender of the gift: Problems with women and problems with society in Melanesia. Berkeley: University of California Press.
+
+    [First citation in article](#1st_hau3.2.012_bib72aR)
+
+    [Crossref](/servlet/linkout?suffix=hau3.2.012_bib72a&dbid=16&doi=10.14318%2Fhau3.2.012&key=10.1525%2Fcalifornia%2F9780520064232.001.0001)[Google Scholar](http://scholar.google.com/scholar?hl=en&q=Strathern%2C+Marilyn.+1988.+The+gender+of+the+gift%3A+Problems+with+women+and+problems+with+society+in+Melanesia.+Berkeley%3A+University+of+California+Press.)
+
+*   Terence Turner. 1979a. “Anthropology and the politics of Indigenous peoples’ struggles.” Cambridge Anthropology 5: 1–43.
+
+    [First citation in article](#1st_hau3.2.012_bib73R)
+
+    [Google Scholar](http://scholar.google.com/scholar?hl=en&q=Turner%2C+Terence.+1979a.+%E2%80%9CAnthropology+and+the+politics+of+Indigenous+peoples%E2%80%99+struggles.%E2%80%9D+Cambridge+Anthropology+5%3A+1%E2%80%9343.)
+
+*   Terence Turner. 1979b. “The Gê and Bororo societies as dialectical systems: A general model.” In Dialectical societies: The Gê and Bororo of central Brazil, edited by Maybury-Lewis David, 147–78. Cambridge, MA: Harvard University Press.
+
+    [First citation in article](#1st_hau3.2.012_bib74R)
+
+    [Crossref](/servlet/linkout?suffix=hau3.2.012_bib74&dbid=16&doi=10.14318%2Fhau3.2.012&key=10.4159%2Fharvard.9780674180727.c7)[Google Scholar](http://scholar.google.com/scholar?hl=en&q=Turner%2C+Terence.+1979b.+%E2%80%9CThe+G%C3%AA+and+Bororo+societies+as+dialectical+systems%3A+A+general+model.%E2%80%9D+In+Dialectical+societies%3A+The+G%C3%AA+and+Bororo+of+central+Brazil%2C+edited+by+David+Maybury-Lewis%2C+147%E2%80%9378.+Cambridge%2C+MA%3A+Harvard+University+Press.)
+
+*   Terence Turner. 1984a. “Value, production and exploitation in simple non-capitalist societies.” Unpublished manuscript.
+
+    [First citation in article](#1st_hau3.2.012_bib75R)
+
+    [Google Scholar](http://scholar.google.com/scholar?hl=en&q=Turner%2C+Terence.+1984a.+%E2%80%9CValue%2C+production+and+exploitation+in+simple+non-capitalist+societies.%E2%80%9D+Unpublished+manuscript.)
+
+*   Terence Turner. 1984b. “Dual opposition, hierarchy and value: Moiety structure and symbolic polarity in central Brazil and elsewhere.” In Differences, valeurs, hierarchies: Textes offertes à Louis Dumont et reunis par Jean-Claude Galey, edited Galey Jean-Claude, 335–70. Paris: Editions de l’Ecole des Hautes Etudes en Sciences Sociales.
+
+    [First citation in article](#1st_hau3.2.012_bib76R)
+
+    [Google Scholar](http://scholar.google.com/scholar?hl=en&q=Turner%2C+Terence.+1984b.+%E2%80%9CDual+opposition%2C+hierarchy+and+value%3A+Moiety+structure+and+symbolic+polarity+in+central+Brazil+and+elsewhere.%E2%80%9D+In+Differences%2C+valeurs%2C+hierarchies%3A+Textes+offertes+%C3%A0+Louis+Dumont+et+reunis+par+Jean-Claude+Galey%2C+edited+Jean-Claude+Galey%2C+335%E2%80%9370.+Paris%3A+Editions+de+l%E2%80%99Ecole+des+Hautes+Etudes+en+Sciences+Sociales.)
+
+*   Terence Turner. 1987. The Kayapo of Southeastern Para. Unpublished monograph prepared for CEDI, Povos Indigenas do Brasil, Vol. VIII, Sul do Para, Part II.
+
+    [First citation in article](#1st_hau3.2.012_bib77R)
+
+    [Google Scholar](http://scholar.google.com/scholar?hl=en&q=Turner%2C+Terence.+1987.+The+Kayapo+of+Southeastern+Para.+Unpublished+monograph+prepared+for+CEDI%2C+Povos+Indigenas+do+Brasil%2C+Vol.+VIII%2C+Sul+do+Para%2C+Part+II.)
+
+*   Terence Turner. 1988. “A critique of ‘interpretation,’ with special reference to Geertz’s conception of culture as text.” Unpublished manuscript, University of Chicago.
+
+    [First citation in article](#1st_hau3.2.012_bib78R)
+
+    [Google Scholar](http://scholar.google.com/scholar?hl=en&q=Turner%2C+Terence.+1988.+%E2%80%9CA+critique+of+%E2%80%98interpretation%2C%E2%80%99+with+special+reference+to+Geertz%E2%80%99s+conception+of+culture+as+text.%E2%80%9D+Unpublished+manuscript%2C+University+of+Chicago.)
+
+*   Terence Turner. 1995. “Social body and embodied subject: The production of bodies, actors and society among the Kayapo.” Cultural Anthropology 10 (2): 143–70.
+
+    [First citation in article](#1st_hau3.2.012_bib79R)
+
+    [Crossref](/servlet/linkout?suffix=hau3.2.012_bib79&dbid=16&doi=10.14318%2Fhau3.2.012&key=10.1525%2Fcan.1995.10.2.02a00010)[Google Scholar](http://scholar.google.com/scholar?hl=en&q=Turner%2C+Terence.+1995.+%E2%80%9CSocial+body+and+embodied+subject%3A+The+production+of+bodies%2C+actors+and+society+among+the+Kayapo.%E2%80%9D+Cultural+Anthropology+10+%282%29%3A+143%E2%80%9370.)
+
+*   Terence Turner. 1997. “The poetics of play: Ritual clowning, masking and performative mimesis among the Kayapo.” In The games of gods and men, edited by P. Kopping Klaus, 173–90. Hamburg: LIT.
+
+    [First citation in article](#1st_hau3.2.012_bib80R)
+
+    [Google Scholar](http://scholar.google.com/scholar?hl=en&q=Turner%2C+Terence.+1997.+%E2%80%9CThe+poetics+of+play%3A+Ritual+clowning%2C+masking+and+performative+mimesis+among+the+Kayapo.%E2%80%9D+In+The+games+of+gods+and+men%2C+edited+by+Klaus+P.+Kopping%2C+173%E2%80%9390.+Hamburg%3A+LIT.)
+
+*   Terence Turner. 2000. “The sacred as alienated social consciousness: Ritual and cosmology among the Kayapo.” In Native religions and cultures of Central and South America, edited by Sullivan L., 278–98. New York: Continuum.
+
+    [First citation in article](#1st_hau3.2.012_bib81R)
+
+    [Google Scholar](http://scholar.google.com/scholar?hl=en&q=Turner%2C+Terence.+2000.+%E2%80%9CThe+sacred+as+alienated+social+consciousness%3A+Ritual+and+cosmology+among+the+Kayapo.%E2%80%9D+In+Native+religions+and+cultures+of+Central+and+South+America%2C+edited+by+L.+Sullivan%2C+278%E2%80%9398.+New+York%3A+Continuum.)
+
+*   Terence Turner. 2003a. “The beautiful and the common: Gender and social hierarchy among the Kayapo.” Tipiti: The Journal of the Society for the Anthropology of Lowland South America 1 (1): 11–26.
+
+    [First citation in article](#1st_hau3.2.012_bib82R)
+
+    [Google Scholar](http://scholar.google.com/scholar?hl=en&q=Turner%2C+Terence.+2003a.+%E2%80%9CThe+beautiful+and+the+common%3A+Gender+and+social+hierarchy+among+the+Kayapo.%E2%80%9D+Tipiti%3A+The+Journal+of+the+Society+for+the+Anthropology+of+Lowland+South+America+1+%281%29%3A+11%E2%80%9326.)
+
+*   Terence Turner. 2003b. “Class projects, social consciousness, and the contradictions of ‘globalization.’” In Violence, the state and globalization, edited by Friedman Jonathan 35–66. New York. Altamira.
+
+    [First citation in article](#1st_hau3.2.012_bib83R)
+
+    [Google Scholar](http://scholar.google.com/scholar?hl=en&q=Turner%2C+Terence.+2003b.+%E2%80%9CClass+projects%2C+social+consciousness%2C+and+the+contradictions+of+%E2%80%98globalization.%E2%80%99%E2%80%9D+In+Violence%2C+the+state+and+globalization%2C+edited+by+Jonathan+Friedman%2C+35%E2%80%9366.+New+York.+Altamira.)
+
+*   Terence Turner. 2006. “Kayapo values: An application of Marxian value theory to a non-commodity based system of production.” Unpublished manuscript.
+
+    [First citation in article](#1st_hau3.2.012_bib84R)
+
+    [Google Scholar](http://scholar.google.com/scholar?hl=en&q=Turner%2C+Terence.+2006.+%E2%80%9CKayapo+values%3A+An+application+of+Marxian+value+theory+to+a+non-commodity+based+system+of+production.%E2%80%9D+Unpublished+manuscript.)
+
+*   Terence Turner. 2008. “Marxian value theory: An anthropological perspective.” Anthropological Theory 8 (1): 43–56.
+
+    [First citation in article](#1st_hau3.2.012_bib85R)
+
+    [Crossref](/servlet/linkout?suffix=hau3.2.012_bib85&dbid=16&doi=10.14318%2Fhau3.2.012&key=10.1177%2F1463499607087494)[Google Scholar](http://scholar.google.com/scholar?hl=en&q=Turner%2C+Terence.+2008.+%E2%80%9CMarxian+value+theory%3A+An+anthropological+perspective.%E2%80%9D+Anthropological+Theory+8+%281%29%3A+43%E2%80%9356.)
+
+*   Terence Turner, Jane Fajans. 1988. “Where the action is: An anthropological perspective on ‘activity theory,’ with ethnographic implications.” Unpublished manuscript, University of Chicago.
+
+    [First citation in article](#1st_hau3.2.012_bib86R)
+
+    [Google Scholar](http://scholar.google.com/scholar?hl=en&q=Turner%2C+Terence%2C+and+Jane+Fajans.+1988.+%E2%80%9CWhere+the+action+is%3A+An+anthropological+perspective+on+%E2%80%98activity+theory%2C%E2%80%99+with+ethnographic+implications.%E2%80%9D+Unpublished+manuscript%2C+University+of+Chicago.)
+
+*   Frédéric Vandenburghe. 1999. “‘The real is relational’: An epistemological analysis of Bourdieu’s generative structuralism.” Sociological Theory 17 (1):32–67.
+
+    [First citation in article](#1st_hau3.2.012_bib87R)
+
+    [Google Scholar](http://scholar.google.com/scholar?hl=en&q=Vandenburghe%2C+Fr%C3%A9d%C3%A9ric.+1999.+%E2%80%9C%E2%80%98The+real+is+relational%E2%80%99%3A+An+epistemological+analysis+of+Bourdieu%E2%80%99s+generative+structuralism.%E2%80%9D+Sociological+Theory+17+%281%29%3A32%E2%80%9367.)
+
+*   Max Weber. 1978. Economy and society: An outline of interpretive sociology. 2 volumes. Berkeley: University of California Press.
+
+    [First citation in article](#1st_hau3.2.012_bib88R)
+
+    [Google Scholar](http://scholar.google.com/scholar?hl=en&q=Weber%2C+Max.+1978.+Economy+and+society%3A+An+outline+of+interpretive+sociology.+2+volumes.+Berkeley%3A+University+of+California+Press.)
+
+*   Annette Weiner. 1985. “Inalienable Wealth.” American Ethnologist 12 (2): 210–25.
+
+    [First citation in article](#1st_hau3.2.012_bib89R)
+
+    [Crossref](/servlet/linkout?suffix=hau3.2.012_bib89&dbid=16&doi=10.14318%2Fhau3.2.012&key=10.1525%2Fae.1985.12.2.02a00020)[Google Scholar](http://scholar.google.com/scholar?hl=en&q=Weiner%2C+Annette.+1985.+%E2%80%9CInalienable+Wealth.%E2%80%9D+American+Ethnologist+12+%282%29%3A+210%E2%80%9325.)
+
+*   Annette Weiner. 1992. Inalienable possessions: The paradox of keeping-while-giving. Berkeley: University of California Press.
+
+    [First citation in article](#1st_hau3.2.012_bib90R)
+
+    [Crossref](/servlet/linkout?suffix=hau3.2.012_bib90&dbid=16&doi=10.14318%2Fhau3.2.012&key=10.1525%2Fcalifornia%2F9780520076037.001.0001)[Google Scholar](http://scholar.google.com/scholar?hl=en&q=Weiner%2C+Annette.+1992.+Inalienable+possessions%3A+The+paradox+of+keeping-while-giving.+Berkeley%3A+University+of+California+Press.)
+
+*   Hylton White. 2010. “Outside the dwelling of culture: Estrangement and difference in postcolonial Zululand.” Anthropological Quarterly 83 (3): 497–518.
+
+    [First citation in article](#1st_hau3.2.012_bib91R)
+
+    [Crossref](/servlet/linkout?suffix=hau3.2.012_bib91&dbid=16&doi=10.14318%2Fhau3.2.012&key=10.1353%2Fanq.2010.0000)[Google Scholar](http://scholar.google.com/scholar?hl=en&q=White%2C+Hylton.+2010.+%E2%80%9COutside+the+dwelling+of+culture%3A+Estrangement+and+difference+in+postcolonial+Zululand.%E2%80%9D+Anthropological+Quarterly+83+%283%29%3A+497%E2%80%93518.)
+
+*   Hylton White. 2011. “Beastly whiteness: Animal kinds and the social imagination in South Africa.” Anthropology Southern Africa 34 (3 & 4): 104–13.
+
+    [First citation in article](#1st_hau3.2.012_bib92R)
+
+    [Crossref](/servlet/linkout?suffix=hau3.2.012_bib92&dbid=16&doi=10.14318%2Fhau3.2.012&key=10.1080%2F23323256.2011.11500014)[Google Scholar](http://scholar.google.com/scholar?hl=en&q=White%2C+Hylton.+2011.+%E2%80%9CBeastly+whiteness%3A+Animal+kinds+and+the+social+imagination+in+South+Africa.%E2%80%9D+Anthropology+Southern+Africa+34+%283+%26+4%29%3A+104%E2%80%9313.)
+
+*   Rane Willerslev. 2013. “God on trial: Human sacrifice, trickery, and faith.” HAU: Journal of Ethnographic Theory 3 (1): 140–54.
+
+    [First citation in article](#1st_hau3.2.012_bib93R)
+
+    [Link](/doi/10.14318/hau3.1.009)[Google Scholar](http://scholar.google.com/scholar?hl=en&q=Willerslev%2C+Rane.+2013.+%E2%80%9CGod+on+trial%3A+Human+sacrifice%2C+trickery%2C+and+faith.%E2%80%9D+HAU%3A+Journal+of+Ethnographic+Theory+3+%281%29%3A+140%E2%80%9354.)
+
+*   Daniel Wolk. n.d. “The making of social class and status among assyrian immigrants in Chicago.” Unpublished manuscript.
+
+    [First citation in article](#1st_hau3.2.012_bib94R)
+
+    [Google Scholar](http://scholar.google.com/scholar?hl=en&q=Wolk%2C+Daniel.+n.d.+%E2%80%9CThe+making+of+social+class+and+status+among+assyrian+immigrants+in+Chicago.%E2%80%9D+Unpublished+manuscript.)
+
+*   Philip G. Zimbardo 2008. The Lucifer effect: How good people turn evil. New York: Random House.
+
+    [First citation in article](#1st_hau3.2.012_bib95R)
+
+    [Google Scholar](http://scholar.google.com/scholar?hl=en&q=Zimbardo%2C+Philip+G.+2008.+The+Lucifer+effect%3A+How+good+people+turn+evil.+New+York%3A+Random+House.)
+
+
+## Notes
+
+[1\.](#xref_hau3.2.012_fn1) Louis Dumont is a notable exception on the French side, but his own work was in many ways a self-conscious attempt to synthesize the French and German traditions.
+
+[2\.](#xref_hau3.2.012_fn2) Hence Michael Hardt and Antonio Negri’s ([2000](#hau3.2.012_bib32): 354–61) famous argument that the “law of value” “can no longer be found” in current, postmodern capitalism is based on the odd assumption that Marx was ever proposing a “law of value” to begin with—it’s quite clear he was not. For the definitive demolition of the premise, and related “transformation problem,” see Massimo De Angelis ([2007](#hau3.2.012_bib13): 158–59). My reading here draws largely on Turner ([1984a](#hau3.2.012_bib75), [2008](#hau3.2.012_bib85)) who is in turn inspired in part by Diane Elson’s ([1979](#hau3.2.012_bib18)) “value theory of labor.”
+
+[3\.](#xref_hau3.2.012_fn3) Hence as Lambek (part two of this special issue) notes, such decisions are normally framed in an entirely different category as calculation: as “judgments.” More on this below.
+
+[4\.](#xref_hau3.2.012_fn4) In fact, as the preface indicates, Marx saw the question he was trying to answer in writing the book as similarly a question of symbolic representation: why, he asks, in the capitalist mode of production, is the value of labor represented in the form of a wage?
+
+[5\.](#xref_hau3.2.012_fn5) I am relying here heavily on the unpublished reinterpretations and retranslations of Weber’s work by Dan Wolk, another of the unpublished papers that circulated in Chicago in the 1980s and 1990s. As far as I know it has only seen print as cited in the works of Raymond T. Smith ([1995](#hau3.2.012_bib71): 174–75, 197).
+
+[6\.](#xref_hau3.2.012_fn6) Wolk makes the connection with Bourdieu as well, noting, for example, that in the original German discussions of what is usually translated the “style of life” of different status groups, Weber often uses the word “habitus.” When I showed Wolk’s paper to Turner at the time, he found it impressive, and incorporated some of Weber’s ideas of status in his own value analyses of contemporary US politics in the late 1990s; papers that, of course, likewise remain unpublished (the one exception, Turner [2003b](#hau3.2.012_bib83): 40).
+
+[7\.](#xref_hau3.2.012_fn7) I would add that while many of the small-scale societies like the Kayapo that anthropologists have traditionally studied might thus seem to lack a politics in this sense, if one examines their history, one usually discovers that their very existence can be seen a kind of political project, the creation of a field for the realization of certain forms of value.
+
+[8\.](#xref_hau3.2.012_fn8) In much the same way as “imaginary,” interestingly enough: see Strauss [2006](#hau3.2.012_bib27).
+
+[9\.](#xref_hau3.2.012_fn9) In a similar vein, it is generally considered equally obnoxious to ask those interested in astrology *how* they think celestial bodies affect human beings’ fates and personalities. If one is confident the system works, that is enough; asking for an explanation of the mechanisms is usually seen as a way of suggesting it really doesn’t.
+
+[10\.](#xref_hau3.2.012_fn10) Indeed, if one defines belief pragmatically, it may well be that many are convinced they don’t believe in it, even though, in fact, they do.
+
+[11\.](#xref_hau3.2.012_fn11) This suggests that in the fact/values split, it is actually values that really come first. We are used to the argument that one cannot derive values from facts, but historically, the process was likely the reverse: the pursuit of facts, as such, can only be a consequence of certain forms of value.
+
+Incidentally this argument might seem a strange thing to say about science, or other intellectual fields where truth itself is the highest value, but science is a relative latecomer in the politics of value, and might be said to have formed as a field, anyway, in relation to religions that had begun to make radical truth-claims themselves.
+
+[12\.](#xref_hau3.2.012_fn12) The current Chinese government still does. And of course Right-wing regimes often make precisely the same move with the need for physical security (“law and order”).
+
+David Graeber is Professor of Anthropology at the London School of Economics. He is the author of *Toward an anthropological theory of value: The false coin of our own dreams* (2001), *Lost people: Magic and the legacy of slavery in Madagascar* (2007), *Direct action: An ethnography* (2009), *Debt: The first 5000 years* (2010), and many other books and essays.
+
+David Graeber
+
+Department of Anthropology London School of Economics
+
+6th Floor, Old Building, Houghton Street
+
+London WC2A 2AE
+
+United Kingdom[d.graeber@lse.ac.uk](mailto:d.graeber@lse.ac.uk)

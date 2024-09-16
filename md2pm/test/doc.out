@@ -1,6 +1,6 @@
 #lang pollen
 
-◊chapter[#:id "markdown-syntax"]{Markdown: Syntax}
+◊define-meta[title]{Markdown: Syntax}
 
 ◊bullet-list{
 ◊(item) ◊a[#:href "#markdown-syntax"]{Markdown: Syntax}
@@ -40,17 +40,17 @@
 
 ◊hr{}
 
-◊section[#:id "overview"]{Overview}
+◊section{Overview}
 
-◊subsection[#:id "philosophy"]{Philosophy}
+◊subsection{Philosophy}
 
 Markdown is intended to be as easy-to-read and easy-to-write as is feasible.
 
 Readability, however, is emphasized above all else. A Markdown-formatted document should be publishable as-is, as plain text, without looking like itrsquos been marked up with tags or formatting instructions. While Markdownrsquos syntax has been influenced by several existing text-to-HTML filters mdash including ◊a[#:href "http://docutils.sourceforge.net/mirror/setext.html"]{Setext}, ◊a[#:href "http://www.aaronsw.com/2002/atx/"]{atx}, ◊a[#:href "http://textism.com/tools/textile/"]{Textile}, ◊a[#:href "http://docutils.sourceforge.net/rst.html"]{reStructuredText}, ◊a[#:href "http://www.triptico.com/software/grutatxt.html"]{Grutatext}, and ◊a[#:href "http://ettext.taint.org/doc/"]{EtText} mdash the single biggest source of inspiration for Markdownrsquos syntax is the format of plain text email.
 
-◊section[#:id "block-elements"]{Block Elements}
+◊section{Block Elements}
 
-◊subsection[#:id "paragraphs-and-line-breaks"]{Paragraphs and Line Breaks}
+◊subsection{Paragraphs and Line Breaks}
 
 A paragraph is simply one or more consecutive lines of text, separated by one or more blank lines. (A blank line is any line that looks like a blank line mdash a line containing nothing but spaces or tabs is considered blank.) Normal paragraphs should not be indented with spaces or tabs.
 
@@ -58,13 +58,13 @@ The implication of the ldquoone or more consecutive lines of textrdquo rule is t
 
 When you ◊em{do} want to insert a ◊code{<br />} break tag using Markdown, you end a line with two or more spaces, then type return.
 
-◊subsection[#:id "headers"]{Headers}
+◊subsection{Headers}
 
 Markdown supports two styles of headers, [Setext] [1] and [atx] [2].
 
 Optionally, you may ldquocloserdquo atx-style headers. This is purely cosmetic mdash you can use this if you think it looks better. The closing hashes donrsquot even need to match the number of hashes used to open the header. (The number of opening hashes determines the header level.)
 
-◊subsection[#:id "blockquotes"]{Blockquotes}
+◊subsection{Blockquotes}
 
 Markdown uses email-style ◊code{>} characters for blockquoting. If yoursquore familiar with quoting passages of text in an email message, then you know how to create a blockquote in Markdown. It looks best if you hard wrap the text and put a ◊code{>} before every line:
 
@@ -99,7 +99,7 @@ Back to the first level.
 Blockquotes can contain other Markdown elements, including headers, lists, and code blocks:
 
 ◊blockquote{
-◊section[#:id "this-is-a-header"]{This is a header.}
+◊section{This is a header.}
 
 ◊number-list{
 ◊(item) This is the first list item.
@@ -114,7 +114,7 @@ Herersquos some example code:
 
 Any decent text editor should make email-style quoting easy. For example, with BBEdit, you can make a selection and choose Increase Quote Level from the Text menu.
 
-◊subsection[#:id "lists"]{Lists}
+◊subsection{Lists}
 
 Markdown supports ordered (numbered) and unordered (bulleted) lists.
 
@@ -236,7 +236,7 @@ To put a code block within a list item, the code block needs to be indented ◊e
 ◊pre{◊code{<code goes here>}}
 }
 
-◊subsection[#:id "code-blocks"]{Code Blocks}
+◊subsection{Code Blocks}
 
 Pre-formatted code blocks are used for writing about programming or markup source code. Rather than forming normal paragraphs, the lines of a code block are interpreted literally. Markdown wraps a code block in both ◊code{<pre>} and ◊code{<code>} tags.
 
@@ -266,9 +266,9 @@ Regular Markdown syntax is not processed within code blocks. E.g., asterisks are
     beep
 end tell}}
 
-◊section[#:id "span-elements"]{Span Elements}
+◊section{Span Elements}
 
-◊subsection[#:id "links"]{Links}
+◊subsection{Links}
 
 Markdown supports two style of links: ◊em{inline} and ◊em{reference}.
 
@@ -280,7 +280,7 @@ This is ◊a[#:href "http://example.com/"]{an example} inline link.
 
 ◊a[#:href "http://example.net/"]{This link} has no title attribute.
 
-◊subsection[#:id "emphasis"]{Emphasis}
+◊subsection{Emphasis}
 
 Markdown treats asterisks (◊code{*}) and underscores (◊code{_}) as indicators of emphasis. Text wrapped with one ◊code{*} or ◊code{_} will be wrapped with an HTML ◊code{<em>} tag; double ◊code{*}rsquos or ◊code{_}rsquos will be wrapped with an HTML ◊code{<strong>} tag. E.g., this input:
 
@@ -292,7 +292,7 @@ Markdown treats asterisks (◊code{*}) and underscores (◊code{_}) as indicator
 
 ◊strong{double underscores}
 
-◊subsection[#:id "code"]{Code}
+◊subsection{Code}
 
 To indicate a span of code, wrap it with backtick quotes (◊code{`}). Unlike a pre-formatted code block, a code span indicates code within a normal paragraph. For example:
 

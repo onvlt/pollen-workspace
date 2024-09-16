@@ -27,7 +27,7 @@
   (define-values (tag elements)
     (values (get-tag expr) (get-elements expr)))
   (case tag
-    [(root p) (encode-elements elements)]
+    [(root p div) (encode-elements elements)]
     [(h1) (format "◊define-meta[title]{~a}" (encode-elements elements))]
     [(h2) (encode-tag (txexpr 'section empty elements))]
     [(h3) (encode-tag (txexpr 'subsection empty elements))]
